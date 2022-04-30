@@ -1,0 +1,24 @@
+PODS:
+  - FSCalendar (2.8.2)
+  - IQKeyboardManagerSwift (6.5.9)
+  - ObjectMapper (3.5.3)
+
+DEPENDENCIES:
+  - FSCalendar
+  - IQKeyboardManagerSwift
+  - ObjectMapper (~> 3.5)
+
+SPEC REPOS:
+  trunk:
+    - FSCalendar
+    - IQKeyboardManagerSwift
+    - ObjectMapper
+
+SPEC CHECKSUMS:
+  FSCalendar: e6a2eb9c571bf0719ed797ef807e08426753c241
+  IQKeyboardManagerSwift: 6e839c575c4aa1078d58a596e41244e77abe918f
+  ObjectMapper: 97111c97e054a6ee25917662106689f0b4127b37
+
+PODFILE CHECKSUM: 95aaa1b581a8ba02eb2aa3dd7e0738ab65fa09b6
+
+COCOAPODS: 1.11.2

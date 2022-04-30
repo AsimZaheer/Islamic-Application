@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Eid-->
+        <scene sceneID="K7O-wx-TTG">
+            <objects>
+                <viewController storyboardIdentifier="EidViewController" title="Eid" id="9Pj-oH-TSL" customClass="EidViewController" customModule="Islamic_Application" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="A2s-6P-wgR">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eE1-Qr-UKx">
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                                <subviews>
+                                    <tableView clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" style="plain" separatorStyle="none" allowsSelection="NO" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="RjK-c7-jSR">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="818"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                        <connections>
+                                            <outlet property="dataSource" destination="9Pj-oH-TSL" id="Ocw-BO-XHE"/>
+                                            <outlet property="delegate" destination="9Pj-oH-TSL" id="IhR-i5-wIv"/>
+                                        </connections>
+                                    </tableView>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <constraints>
+                                    <constraint firstItem="RjK-c7-jSR" firstAttribute="leading" secondItem="eE1-Qr-UKx" secondAttribute="leading" id="1mN-fE-dIm"/>
+                                    <constraint firstAttribute="trailing" secondItem="RjK-c7-jSR" secondAttribute="trailing" id="nhd-jC-TYW"/>
+                                    <constraint firstItem="RjK-c7-jSR" firstAttribute="top" secondItem="eE1-Qr-UKx" secondAttribute="top" id="r0o-Gw-0cu"/>
+                                    <constraint firstAttribute="bottom" secondItem="RjK-c7-jSR" secondAttribute="bottom" id="veV-bK-8r0"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="eE1-Qr-UKx" firstAttribute="leading" secondItem="M5h-7M-2dD" secondAttribute="leading" id="2qB-ie-bQv"/>
+                            <constraint firstItem="eE1-Qr-UKx" firstAttribute="top" secondItem="M5h-7M-2dD" secondAttribute="top" id="L5t-Ga-aR2"/>
+                            <constraint firstItem="M5h-7M-2dD" firstAttribute="bottom" secondItem="eE1-Qr-UKx" secondAttribute="bottom" id="Oaz-6j-oob"/>
+                            <constraint firstItem="M5h-7M-2dD" firstAttribute="trailing" secondItem="eE1-Qr-UKx" secondAttribute="trailing" id="Qa8-N3-AyV"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="M5h-7M-2dD"/>
+                    </view>
+                    <connections>
+                        <outlet property="eidTableView" destination="RjK-c7-jSR" id="7v1-QL-gva"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fKt-il-O9a" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="119" y="109"/>
+        </scene>
+        <!--Allah Names-->
+        <scene sceneID="SEB-31-h8D">
+            <objects>
+                <viewController storyboardIdentifier="AllahNamesViewController" title="Allah Names" id="gXJ-hI-97I" customClass="AllahNamesViewController" customModule="Islamic_Application" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="luh-VF-5BM">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vtH-5t-IXe">
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                                <subviews>
+                                    <collectionView clipsSubviews="YES" clearsContextBeforeDrawing="NO" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="CWj-0A-oeE">
+                                        <rect key="frame" x="20" y="20" width="374" height="778"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                        <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="hcB-69-aaw">
+                                            <size key="itemSize" width="128" height="128"/>
+                                            <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                            <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                            <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                        </collectionViewFlowLayout>
+                                        <cells/>
+                                        <connections>
+                                            <outlet property="dataSource" destination="gXJ-hI-97I" id="L93-Ld-WJf"/>
+                                            <outlet property="delegate" destination="gXJ-hI-97I" id="dgc-8e-sdo"/>
+                                        </connections>
+                                    </collectionView>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <constraints>
+                                    <constraint firstItem="CWj-0A-oeE" firstAttribute="leading" secondItem="vtH-5t-IXe" secondAttribute="leading" constant="20" id="522-AG-vyl"/>
+                                    <constraint firstItem="CWj-0A-oeE" firstAttribute="top" secondItem="vtH-5t-IXe" secondAttribute="top" constant="20" id="5Zo-Yr-s50"/>
+                                    <constraint firstAttribute="bottom" secondItem="CWj-0A-oeE" secondAttribute="bottom" constant="20" id="8Bq-4B-RFM"/>
+                                    <constraint firstAttribute="trailing" secondItem="CWj-0A-oeE" secondAttribute="trailing" constant="20" id="IIA-nB-5QB"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="vtH-5t-IXe" firstAttribute="top" secondItem="zuA-Rm-kaq" secondAttribute="top" id="K9V-Nu-syz"/>
+                            <constraint firstItem="zuA-Rm-kaq" firstAttribute="bottom" secondItem="vtH-5t-IXe" secondAttribute="bottom" id="WI5-sK-RPb"/>
+                            <constraint firstItem="zuA-Rm-kaq" firstAttribute="trailing" secondItem="vtH-5t-IXe" secondAttribute="trailing" id="dCn-kK-BqR"/>
+                            <constraint firstItem="vtH-5t-IXe" firstAttribute="leading" secondItem="zuA-Rm-kaq" secondAttribute="leading" id="yzR-MW-J01"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="zuA-Rm-kaq"/>
+                    </view>
+                    <connections>
+                        <outlet property="AllahNamesCollectionView" destination="CWj-0A-oeE" id="YR9-U2-c9p"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Gb6-ur-zCE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="765" y="108"/>
+        </scene>
+        <!--Azan-->
+        <scene sceneID="zLh-4F-UFD">
+            <objects>
+                <viewController storyboardIdentifier="AzanViewController" title="Azan" id="pFf-SG-WbT" customClass="AzanViewController" customModule="Islamic_Application" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="bmB-Ce-1QP">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dOZ-2Y-jKD">
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                                <subviews>
+                                    <tableView clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" style="plain" separatorStyle="none" allowsSelection="NO" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="IZG-eC-ry4">
+                                        <rect key="frame" x="10" y="10" width="394" height="798"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                        <connections>
+                                            <outlet property="dataSource" destination="pFf-SG-WbT" id="7o8-AS-tZQ"/>
+                                            <outlet property="delegate" destination="pFf-SG-WbT" id="13r-74-eSD"/>
+                                        </connections>
+                                    </tableView>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <constraints>
+                                    <constraint firstItem="IZG-eC-ry4" firstAttribute="leading" secondItem="dOZ-2Y-jKD" secondAttribute="leading" constant="10" id="AMC-xh-xWo"/>
+                                    <constraint firstAttribute="trailing" secondItem="IZG-eC-ry4" secondAttribute="trailing" constant="10" id="FZM-2s-gpr"/>
+                                    <constraint firstItem="IZG-eC-ry4" firstAttribute="top" secondItem="dOZ-2Y-jKD" secondAttribute="top" constant="10" id="ihR-1y-YGN"/>
+                                    <constraint firstAttribute="bottom" secondItem="IZG-eC-ry4" secondAttribute="bottom" constant="10" id="mj1-JW-7bY"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="mwL-Rl-ySd" firstAttribute="bottom" secondItem="dOZ-2Y-jKD" secondAttribute="bottom" id="3uH-Jx-1bE"/>
+                            <constraint firstItem="mwL-Rl-ySd" firstAttribute="trailing" secondItem="dOZ-2Y-jKD" secondAttribute="trailing" id="TFL-AT-xdk"/>
+                            <constraint firstItem="dOZ-2Y-jKD" firstAttribute="leading" secondItem="mwL-Rl-ySd" secondAttribute="leading" id="sVI-CZ-pf3"/>
+                            <constraint firstItem="dOZ-2Y-jKD" firstAttribute="top" secondItem="mwL-Rl-ySd" secondAttribute="top" id="xFG-RJ-Esz"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="mwL-Rl-ySd"/>
+                    </view>
+                    <connections>
+                        <outlet property="azanTableView" destination="IZG-eC-ry4" id="ljV-fg-bhu"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hfc-r9-qsW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1422" y="108"/>
+        </scene>
+        <!--Quran-->
+        <scene sceneID="MXV-n2-Fht">
+            <objects>
+                <viewController storyboardIdentifier="SurahsNameViewController" title="Quran" id="N0w-gf-bpZ" customClass="SurahsNameViewController" customModule="Islamic_Application" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Fjd-EK-mQz">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hpc-sa-gff">
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                                <subviews>
+                                    <tableView clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="EZH-8y-qZ6">
+                                        <rect key="frame" x="10" y="10" width="394" height="798"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                        <color key="sectionIndexBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <connections>
+                                            <outlet property="dataSource" destination="N0w-gf-bpZ" id="XZp-Af-itq"/>
+                                            <outlet property="delegate" destination="N0w-gf-bpZ" id="290-PE-j6j"/>
+                                        </connections>
+                                    </tableView>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <constraints>
+                                    <constraint firstItem="EZH-8y-qZ6" firstAttribute="top" secondItem="hpc-sa-gff" secondAttribute="top" constant="10" id="27H-AW-Z0S"/>
+                                    <constraint firstItem="EZH-8y-qZ6" firstAttribute="leading" secondItem="hpc-sa-gff" secondAttribute="leading" constant="10" id="UFF-hW-b76"/>
+                                    <constraint firstAttribute="bottom" secondItem="EZH-8y-qZ6" secondAttribute="bottom" constant="10" id="eAx-cn-im5"/>
+                                    <constraint firstAttribute="trailing" secondItem="EZH-8y-qZ6" secondAttribute="trailing" constant="10" id="yG5-w3-dj7"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="hpc-sa-gff" firstAttribute="top" secondItem="osc-sh-p0U" secondAttribute="top" id="JRj-K7-nGc"/>
+                            <constraint firstItem="osc-sh-p0U" firstAttribute="trailing" secondItem="hpc-sa-gff" secondAttribute="trailing" id="QY3-Ja-Gp8"/>
+                            <constraint firstItem="hpc-sa-gff" firstAttribute="leading" secondItem="osc-sh-p0U" secondAttribute="leading" id="jrw-KE-802"/>
+                            <constraint firstItem="osc-sh-p0U" firstAttribute="bottom" secondItem="hpc-sa-gff" secondAttribute="bottom" id="wob-rf-tNY"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="osc-sh-p0U"/>
+                    </view>
+                    <connections>
+                        <outlet property="surahsNameTableView" destination="EZH-8y-qZ6" id="Rok-NX-sNi"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lda-Gq-1N4" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2110" y="108"/>
+        </scene>
+        <!--Quran View Controller-->
+        <scene sceneID="NJC-Lw-GLd">
+            <objects>
+                <viewController storyboardIdentifier="QuranViewController" id="dXv-PH-DLA" customClass="QuranViewController" customModule="Islamic_Application" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="vtX-7C-l8F">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uQq-Yu-bOv">
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                                <subviews>
+                                    <tableView clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" style="plain" separatorStyle="none" allowsSelection="NO" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="BLF-F7-yId">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="818"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                        <connections>
+                                            <outlet property="dataSource" destination="dXv-PH-DLA" id="56X-1U-ZmU"/>
+                                            <outlet property="delegate" destination="dXv-PH-DLA" id="79b-5B-yb9"/>
+                                        </connections>
+                                    </tableView>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="BLF-F7-yId" secondAttribute="bottom" id="ax9-3E-aAh"/>
+                                    <constraint firstItem="BLF-F7-yId" firstAttribute="top" secondItem="uQq-Yu-bOv" secondAttribute="top" id="eeS-UL-idn"/>
+                                    <constraint firstAttribute="trailing" secondItem="BLF-F7-yId" secondAttribute="trailing" id="h1o-2m-5fr"/>
+                                    <constraint firstItem="BLF-F7-yId" firstAttribute="leading" secondItem="uQq-Yu-bOv" secondAttribute="leading" id="qeR-YC-zQY"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="YTs-4V-P5W" firstAttribute="bottom" secondItem="uQq-Yu-bOv" secondAttribute="bottom" id="Df7-9v-2r2"/>
+                            <constraint firstItem="YTs-4V-P5W" firstAttribute="trailing" secondItem="uQq-Yu-bOv" secondAttribute="trailing" id="VRH-eE-lzQ"/>
+                            <constraint firstItem="uQq-Yu-bOv" firstAttribute="top" secondItem="YTs-4V-P5W" secondAttribute="top" id="uBA-ub-xuq"/>
+                            <constraint firstItem="uQq-Yu-bOv" firstAttribute="leading" secondItem="YTs-4V-P5W" secondAttribute="leading" id="zWJ-r1-hto"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="YTs-4V-P5W"/>
+                    </view>
+                    <connections>
+                        <outlet property="alQuranTableView" destination="BLF-F7-yId" id="G3o-rd-p1b"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Uwh-Mt-YBE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2774" y="108"/>
+        </scene>
+    </scenes>
+</document>

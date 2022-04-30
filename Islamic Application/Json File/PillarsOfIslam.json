@@ -1,0 +1,27 @@
+[
+   {
+      "name":"Shahadah",
+      "englishTranslation":"(profession of faith)",
+      "description":"Is the first pillar of Islam. Muslims bear witness to the oneness of God by reciting the creed 'There is no God but God and Muhammad is the Messenger of God.' This simple yet profound statement expresses a Muslim's complete acceptance of and total commitment to Islam."
+   },
+   {
+      "name":"Salah",
+      "englishTranslation":"(prayer)",
+      "description":" Is the second pillar. The Islamic faith is based on the belief that individuals have a direct relationship with God. The world's Muslims turn individually and collectively to Makkah, Islam's holiest city, to offer five daily prayers at dawn, noon, mid-afternoon, sunset and evening. In addition, Friday congregational service is also required. Although salah can he performed alone, it is meritorious to perform it with another or with a group. It is permissible to pray at home, at work, or even outdoors; however it is recommended that Muslims perform salah in a mosque."
+   },
+   {
+      "name":"Zakat",
+      "englishTranslation":"(almsgiving)",
+      "description":"Is the third pillar. Social responsibility is considered part of one's service to God; the obligatory act of zakat enshrines this duty. Zakat prescribes payment of fixed proportions of a Muslim's possessions for the welfare of the entire community and in particular for its neediest members. It is equal to 2.5 percent of an individual's total net worth, excluding obligations and family expenses"
+   },
+   {
+      "name":"Sawm",
+      "englishTranslation":"(fasting during the holy month of Ramadan)",
+      "description":"Is the fourth pillar of Islam. Ordained in the Holy Qur'an, the fast is an act of deep personal worship in which Muslims seek a richer perception of God. Fasting is also an exercise in self-control whereby one's sensitivity is heightened to the sufferings of the poor. Ramadan, the month during which the Holy Qur'an was revealed to the Prophet Muhammad, begins with the sighting of the new moon, after which abstention from eating, drinking and other sensual pleasures is obligatory from dawn to sunset. Ramadan is also a joyful month. Muslims break their fast at sunset with a special meal, iftar, perform additional nocturnal worship, tarawih, after evening prayer; and throng the streets in moods that are festive and communal. The end of Ramadan is observed by three days of celebration called Eid Al-Fitr, the feast of the breaking of the fast. Customarily, it is a time for family reunion and the favored holiday for children who receive new clothing and gifts."
+   },
+   {
+      "name":" Hajj",
+      "englishTranslation":"(the pilgrimage to Makkah)",
+      "description":"Is the fifth pillar and the most significant manifestation of Islamic faith and unity in the world. For those Muslims who are physically and financially able to make the journey to Makkah, the Hajj is a once in a lifetime duty that is the peak of their religious life. The Hajj is a remarkable spiritual gathering of over two million Muslims from all over the world to the holy city. In performing the Hajj, a pilgrim follows the order of ritual that the Prophet Muhammad performed during his last pilgrimage."
+   }
+]

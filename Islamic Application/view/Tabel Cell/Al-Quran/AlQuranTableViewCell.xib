@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="AlQuranTableViewCell" rowHeight="262" id="KGk-i7-Jjw" customClass="AlQuranTableViewCell" customModule="Islamic_Application" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="262"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="262"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FwJ-5O-8ob">
+                        <rect key="frame" x="10" y="10" width="300" height="242"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Zqh-Oh-P1b">
+                                <rect key="frame" x="0.0" y="0.0" width="300" height="50"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="AyatBackgroundImage" translatesAutoresizingMaskIntoConstraints="NO" id="vxC-mE-1EB">
+                                        <rect key="frame" x="131.5" y="6.5" width="37" height="37"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iKh-ZI-kYz">
+                                        <rect key="frame" x="148" y="19.5" width="4.5" height="11"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="9"/>
+                                        <color key="textColor" red="0.42745098040000001" green="0.17254901959999999" blue="0.79215686269999996" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q62-pB-6kb">
+                                        <rect key="frame" x="18" y="13" width="24" height="24"/>
+                                        <state key="normal" image="quranAudioButtonImage"/>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="iKh-ZI-kYz" firstAttribute="centerY" secondItem="vxC-mE-1EB" secondAttribute="centerY" id="D9q-tJ-LQS"/>
+                                    <constraint firstAttribute="height" constant="50" id="Oeg-fs-MaN"/>
+                                    <constraint firstItem="iKh-ZI-kYz" firstAttribute="centerX" secondItem="vxC-mE-1EB" secondAttribute="centerX" id="POI-bq-9nL"/>
+                                    <constraint firstItem="Q62-pB-6kb" firstAttribute="centerX" secondItem="Zqh-Oh-P1b" secondAttribute="centerX" multiplier="0.2" id="VPz-3R-t5u"/>
+                                    <constraint firstItem="Q62-pB-6kb" firstAttribute="centerY" secondItem="Zqh-Oh-P1b" secondAttribute="centerY" id="bhx-q8-abk"/>
+                                    <constraint firstItem="vxC-mE-1EB" firstAttribute="centerX" secondItem="Zqh-Oh-P1b" secondAttribute="centerX" id="f2W-EB-28W"/>
+                                    <constraint firstItem="vxC-mE-1EB" firstAttribute="centerY" secondItem="Zqh-Oh-P1b" secondAttribute="centerY" id="t6k-14-s5u"/>
+                                </constraints>
+                            </view>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="c1k-qb-6Rd">
+                                <rect key="frame" x="10" y="60" width="280" height="172"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hD7-W0-11A">
+                                        <rect key="frame" x="0.0" y="0.0" width="280" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" red="0.42745098040000001" green="0.17254901959999999" blue="0.79215686269999996" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fzd-XQ-p0D">
+                                        <rect key="frame" x="0.0" y="76" width="280" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gtY-dM-STj">
+                                        <rect key="frame" x="0.0" y="151.5" width="280" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.96862745100000003" green="0.96862745100000003" blue="0.96862745100000003" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="Zqh-Oh-P1b" firstAttribute="leading" secondItem="FwJ-5O-8ob" secondAttribute="leading" id="FU1-pq-fLP"/>
+                            <constraint firstAttribute="trailing" secondItem="Zqh-Oh-P1b" secondAttribute="trailing" id="IbV-yV-E8B"/>
+                            <constraint firstItem="c1k-qb-6Rd" firstAttribute="leading" secondItem="FwJ-5O-8ob" secondAttribute="leading" constant="10" id="UIP-bq-381"/>
+                            <constraint firstItem="Zqh-Oh-P1b" firstAttribute="top" secondItem="FwJ-5O-8ob" secondAttribute="top" id="ZyM-xZ-evY"/>
+                            <constraint firstAttribute="trailing" secondItem="c1k-qb-6Rd" secondAttribute="trailing" constant="10" id="bAh-on-3c9"/>
+                            <constraint firstItem="c1k-qb-6Rd" firstAttribute="top" secondItem="Zqh-Oh-P1b" secondAttribute="bottom" constant="10" id="n3W-dA-0ab"/>
+                            <constraint firstAttribute="bottom" secondItem="c1k-qb-6Rd" secondAttribute="bottom" constant="10" id="xWk-Cp-d4a"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="FwJ-5O-8ob" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="KUA-MP-kIQ"/>
+                    <constraint firstAttribute="trailing" secondItem="FwJ-5O-8ob" secondAttribute="trailing" constant="10" id="Sh2-T6-5Kn"/>
+                    <constraint firstAttribute="bottom" secondItem="FwJ-5O-8ob" secondAttribute="bottom" constant="10" id="Y12-CV-Dv3"/>
+                    <constraint firstItem="FwJ-5O-8ob" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="lBG-oP-xbz"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="ayyatNoLabel" destination="iKh-ZI-kYz" id="Xjn-od-Vgq"/>
+                <outlet property="englishTranslationLabel" destination="fzd-XQ-p0D" id="ktg-Xr-UT5"/>
+                <outlet property="quranArabicLabel" destination="hD7-W0-11A" id="RDu-T1-q4x"/>
+                <outlet property="quranMainView" destination="FwJ-5O-8ob" id="IKw-ZZ-eIg"/>
+                <outlet property="urduTranslationLabel" destination="gtY-dM-STj" id="xNH-id-fsX"/>
+            </connections>
+            <point key="canvasLocation" x="140.57971014492756" y="105.80357142857143"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="AyatBackgroundImage" width="37" height="37"/>
+        <image name="quranAudioButtonImage" width="24" height="24"/>
+    </resources>
+</document>

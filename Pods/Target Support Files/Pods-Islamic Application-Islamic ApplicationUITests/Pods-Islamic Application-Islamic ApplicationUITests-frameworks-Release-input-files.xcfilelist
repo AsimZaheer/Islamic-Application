@@ -1,0 +1,4 @@
+${PODS_ROOT}/Target Support Files/Pods-Islamic Application-Islamic ApplicationUITests/Pods-Islamic Application-Islamic ApplicationUITests-frameworks.sh
+${BUILT_PRODUCTS_DIR}/FSCalendar/FSCalendar.framework
+${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework
+${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework

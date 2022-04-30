@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="AllahNamesCollectionViewCell" id="gTV-IL-0wX" customClass="AllahNamesCollectionViewCell" customModule="Islamic_Application" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="159" height="190"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="159" height="190"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gbp-lx-PwE">
+                        <rect key="frame" x="0.0" y="0.0" width="159" height="190"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="AllahNameBackgroundImage" translatesAutoresizingMaskIntoConstraints="NO" id="EFK-gT-b1z">
+                                <rect key="frame" x="0.0" y="0.0" width="159" height="190"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a27-15-Jf9">
+                                <rect key="frame" x="75.5" y="18" width="8" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ar-Rehman" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7aE-lL-GIn">
+                                <rect key="frame" x="16" y="48.5" width="127" height="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The Beneficent" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YHL-uk-TUq">
+                                <rect key="frame" x="16" y="143.5" width="127" height="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="الرَّحْمَنُ" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B8O-Bb-sYm">
+                                <rect key="frame" x="16" y="92.5" width="127" height="24"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <color key="textColor" red="0.40000000000000002" green="0.15294117647058825" blue="0.77647058823529413" alpha="0.84705882352941175" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="B8O-Bb-sYm" firstAttribute="centerY" secondItem="gbp-lx-PwE" secondAttribute="centerY" multiplier="1.1" id="4ss-5b-Vc8"/>
+                            <constraint firstItem="YHL-uk-TUq" firstAttribute="centerY" secondItem="gbp-lx-PwE" secondAttribute="centerY" multiplier="1.6" id="GVf-1x-bE2"/>
+                            <constraint firstItem="7aE-lL-GIn" firstAttribute="width" secondItem="gbp-lx-PwE" secondAttribute="width" multiplier="0.8" id="IcC-B0-Ncr"/>
+                            <constraint firstItem="YHL-uk-TUq" firstAttribute="width" secondItem="gbp-lx-PwE" secondAttribute="width" multiplier="0.8" id="PMf-8Z-aG6"/>
+                            <constraint firstItem="a27-15-Jf9" firstAttribute="centerY" secondItem="gbp-lx-PwE" secondAttribute="centerY" multiplier="0.3" id="Qw2-2H-9Hj"/>
+                            <constraint firstItem="EFK-gT-b1z" firstAttribute="top" secondItem="gbp-lx-PwE" secondAttribute="top" id="Sk7-qs-w99"/>
+                            <constraint firstAttribute="trailing" secondItem="EFK-gT-b1z" secondAttribute="trailing" id="Vdd-JR-zmI"/>
+                            <constraint firstItem="7aE-lL-GIn" firstAttribute="centerY" secondItem="gbp-lx-PwE" secondAttribute="centerY" multiplier="0.6" id="bt8-iy-n5y"/>
+                            <constraint firstItem="EFK-gT-b1z" firstAttribute="leading" secondItem="gbp-lx-PwE" secondAttribute="leading" id="cnm-0u-pt5"/>
+                            <constraint firstItem="a27-15-Jf9" firstAttribute="centerX" secondItem="gbp-lx-PwE" secondAttribute="centerX" id="dyW-ou-O0m"/>
+                            <constraint firstAttribute="bottom" secondItem="EFK-gT-b1z" secondAttribute="bottom" id="e4e-pE-77A"/>
+                            <constraint firstItem="B8O-Bb-sYm" firstAttribute="centerX" secondItem="gbp-lx-PwE" secondAttribute="centerX" id="jcU-Fv-O6g"/>
+                            <constraint firstItem="7aE-lL-GIn" firstAttribute="centerX" secondItem="gbp-lx-PwE" secondAttribute="centerX" id="kAw-KW-N02"/>
+                            <constraint firstItem="YHL-uk-TUq" firstAttribute="centerX" secondItem="gbp-lx-PwE" secondAttribute="centerX" id="kpY-aX-hcA"/>
+                            <constraint firstItem="B8O-Bb-sYm" firstAttribute="width" secondItem="gbp-lx-PwE" secondAttribute="width" multiplier="0.8" id="yw6-hq-MJY"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="gbp-lx-PwE" secondAttribute="trailing" id="CbG-pQ-spM"/>
+                <constraint firstItem="gbp-lx-PwE" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="fDD-yb-LKe"/>
+                <constraint firstItem="gbp-lx-PwE" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="x1d-Jw-xUL"/>
+                <constraint firstAttribute="bottom" secondItem="gbp-lx-PwE" secondAttribute="bottom" id="zAh-LZ-Z53"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <size key="customSize" width="90" height="142"/>
+            <connections>
+                <outlet property="meaningLabel" destination="YHL-uk-TUq" id="q8Q-rQ-nEs"/>
+                <outlet property="nameLabel" destination="B8O-Bb-sYm" id="pu2-6m-QyW"/>
+                <outlet property="numberLabel" destination="a27-15-Jf9" id="4WK-9X-kAW"/>
+                <outlet property="transliterationLabel" destination="7aE-lL-GIn" id="hXT-K3-HoV"/>
+            </connections>
+            <point key="canvasLocation" x="192.0289855072464" y="125.89285714285714"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="AllahNameBackgroundImage" width="179" height="223"/>
+    </resources>
+</document>

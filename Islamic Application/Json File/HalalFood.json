@@ -1,0 +1,14 @@
+[
+   {
+      "FoodType":"Halal Food",
+      "description":"All vegetables are Halal\nAll animals and birds that are not listed in the Haram food list are Halal as food for the believers provided they fulfill the requirements of slaughter\nThe food and drink that is pure, clean, nourishing and pleasing to the taste\nWe can eat all fish and seafood but not frogs nor crocodiles as crocodiles have fangs"
+   },
+   {
+      "FoodType":"Harram Food",
+      "description":"The flesh of swine\nThe meat of any dead animal which is not slaughtered\nThe food on which any name other than Allah Almighty has been invoked\nThe Messenger of Allah Prophet (PBUH) forbade the believers to eat the meat of any bird which hunts with its claws\nBlood\nFlesh of pork\nAlcohol"
+   },
+   {
+      "FoodType":"How to Identify Hallal Food",
+      "description":"Packaged Halal foods often carry a “Halal Certified” logo awarded by the Muslim council or Halal supervisory board of your country.\nSome foods simply have the word “Halal” printed on them; this is fine too, but be careful in considering whether you are able to trust the source.\nIf there is no Halal symbol, look for the vegetarian sign. This is the one that looks like a green square with a green dot in the middle. Check the ingredients to make sure it doesn't contain alcohol (most packaged goods will not), and you're good to go. Always check the labels. Checking the ingredients listed on the package is your best bet on figuring out if the food is Halal or not.\nIn the case of confectioneries, look out for “gelatin” listed in the ingredients. If the package has no Halal or vegetarian symbol, then it's most probably not Halal gelatin.\nSome foods containing the non-vegetarian symbol, which looks similar to the vegetarian symbol but maroon in colour, can also be Halal. This may be because it contains eggs, and since there are no Halal and Haram eggs, there is no need to worry. If this is the case, it is usually mentioned underneath the maroon square and circle symbol.\nCheck for foods containing emulsifiers. Look for Halal and Haram E-Codes online, or you can even download apps that scan the ingredients and tell you if it's Halal or not. But many emulsifiers may be derived from plant or animal sources (maybe Halal or non-Halal), so not all products will be the Halal or Haram."
+   }
+]

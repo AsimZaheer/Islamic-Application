@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="AzanTableViewCell" rowHeight="58" id="KGk-i7-Jjw" customClass="AzanTableViewCell" customModule="Islamic_Application" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="344" height="58"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="344" height="58"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Hit-rs-JHZ">
+                        <rect key="frame" x="10" y="10" width="324" height="38"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Azan 1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ub8-jj-ygA">
+                                <rect key="frame" x="20" y="9" width="53.5" height="20.5"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="aQP-rG-2g3">
+                                <rect key="frame" x="243" y="4" width="65" height="30"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X4I-hZ-IGo">
+                                        <rect key="frame" x="0.0" y="0.0" width="30" height="30"/>
+                                        <connections>
+                                            <action selector="azanPlayButton:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="f0B-yV-m6k"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Brm-I2-kOm">
+                                        <rect key="frame" x="35" y="0.0" width="30" height="30"/>
+                                        <state key="normal" title="Button" image="AzanStopButtonImage"/>
+                                        <connections>
+                                            <action selector="azanStopButton:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="lSd-op-IUA"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="Brm-I2-kOm" secondAttribute="trailing" id="PdV-15-2n5"/>
+                                    <constraint firstAttribute="width" constant="65" id="Tig-h3-YiX"/>
+                                    <constraint firstItem="X4I-hZ-IGo" firstAttribute="top" secondItem="aQP-rG-2g3" secondAttribute="top" id="Yx3-a5-Yqi"/>
+                                    <constraint firstAttribute="height" constant="30" id="dhQ-Wp-17E"/>
+                                    <constraint firstItem="Brm-I2-kOm" firstAttribute="leading" secondItem="X4I-hZ-IGo" secondAttribute="trailing" constant="5" id="dmJ-ya-1Th"/>
+                                    <constraint firstItem="Brm-I2-kOm" firstAttribute="top" secondItem="aQP-rG-2g3" secondAttribute="top" id="ehk-WP-792"/>
+                                    <constraint firstAttribute="bottom" secondItem="Brm-I2-kOm" secondAttribute="bottom" id="hU5-gW-8Xu"/>
+                                    <constraint firstItem="X4I-hZ-IGo" firstAttribute="leading" secondItem="aQP-rG-2g3" secondAttribute="leading" id="rTm-ta-7IU"/>
+                                    <constraint firstAttribute="bottom" secondItem="X4I-hZ-IGo" secondAttribute="bottom" id="xtb-a4-eWD"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.96862745098039216" green="0.96862745098039216" blue="0.96862745098039216" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="Ub8-jj-ygA" firstAttribute="leading" secondItem="Hit-rs-JHZ" secondAttribute="leading" constant="20" id="35K-4l-KRR"/>
+                            <constraint firstItem="aQP-rG-2g3" firstAttribute="centerY" secondItem="Hit-rs-JHZ" secondAttribute="centerY" id="FiJ-9P-UI6"/>
+                            <constraint firstItem="Ub8-jj-ygA" firstAttribute="centerY" secondItem="Hit-rs-JHZ" secondAttribute="centerY" id="k4Z-Vj-hUf"/>
+                            <constraint firstItem="aQP-rG-2g3" firstAttribute="centerX" secondItem="Hit-rs-JHZ" secondAttribute="centerX" multiplier="1.7" id="mOY-bu-kFq"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="Hit-rs-JHZ" secondAttribute="bottom" constant="10" id="UC5-eF-hcs"/>
+                    <constraint firstItem="Hit-rs-JHZ" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="YVj-vG-YMy"/>
+                    <constraint firstAttribute="trailing" secondItem="Hit-rs-JHZ" secondAttribute="trailing" constant="10" id="ZWE-Jb-AL9"/>
+                    <constraint firstItem="Hit-rs-JHZ" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="eRY-4u-1G9"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="azanNameLabel" destination="Ub8-jj-ygA" id="dHv-mO-tI5"/>
+                <outlet property="azanPlayButton" destination="X4I-hZ-IGo" id="vHZ-hu-ae4"/>
+                <outlet property="azanStopButton" destination="Brm-I2-kOm" id="6PT-Vo-IPp"/>
+            </connections>
+            <point key="canvasLocation" x="155.07246376811597" y="140.625"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="AzanStopButtonImage" width="36" height="36"/>
+    </resources>
+</document>

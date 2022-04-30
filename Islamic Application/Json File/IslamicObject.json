@@ -1,0 +1,86 @@
+[
+   {
+      "name":"Azan",
+      "backgroundframe":"Azanframe",
+      "backgroundcolor":"azanbackgroudcolor",
+      "imageicon":"Azanicon"
+   },
+   {
+      "name":"Tasbeeh",
+      "backgroundframe":"Tasbeehframe",
+      "backgroundcolor":"tasbeehbackgroundcolor",
+      "imageicon":"Tasbeehicon"
+   },
+   {
+      "name":"Hadith",
+      "backgroundframe":"Hadithframe",
+      "backgroundcolor":"hadithbackgroundcolor",
+      "imageicon":"Hadithicon"
+   },
+   {
+      "name":"Halal Food",
+      "backgroundframe":"foodframe",
+      "backgroundcolor":"foodbackgroundcolor",
+      "imageicon":"Foodicon"
+   },
+   {
+      "name":"Zakat Calculator",
+      "backgroundframe":"zikatframe",
+      "backgroundcolor":"zakatbackgroundcolor",
+      "imageicon":"zakaticon"
+   },
+   {
+      "name":"Wudu step",
+      "backgroundframe":"wudufram",
+      "backgroundcolor":"wudubackgroundcolor",
+      "imageicon":"wuduicon"
+   },
+   {
+      "name":"Kalimas",
+      "backgroundframe":"kalmaframe",
+      "backgroundcolor":"kalmabackgroundcolor",
+      "imageicon":"kalmaicon"
+   },
+   {
+      "name":"99 Name",
+      "backgroundframe":"99Nameframe",
+      "backgroundcolor":"99namebackgroundcolor",
+      "imageicon":"99Nameicon"
+   },
+   {
+      "name":"Calendar",
+      "backgroundframe":"clanderframe",
+      "backgroundcolor":"calenderbackgroundcolor",
+      "imageicon":"calandericon"
+   },
+   {
+      "name":"Guidance",
+      "backgroundframe":"guidanceframe",
+      "backgroundcolor":"guidancebackgroundcolor",
+      "imageicon":"Guidnessicon"
+   },
+   {
+      "name":"Importance Of Ramadan",
+      "backgroundframe":"importanceframe",
+      "backgroundcolor":"importancebackgroundcolor",
+      "imageicon":"importanceicon"
+   },
+   {
+      "name":"Pillars of Islam",
+      "backgroundframe":"pillaorsofislamframe",
+      "backgroundcolor":"pillarofislambackgroundcolor",
+      "imageicon":"pillarsofislamicon"
+   },
+   {
+      "name":"Namaz Time",
+      "backgroundframe":"NamzTimeBackgroundFrame",
+      "backgroundcolor":"NamazTimeBackgroundColor",
+      "imageicon":"NamazTimeImage"
+   },
+   {
+      "name":"Eid",
+      "backgroundframe":"eidBackgroundFrame",
+      "backgroundcolor":"EidBackgroundColor",
+      "imageicon":"eid-Ul-Adza"
+   }
+]

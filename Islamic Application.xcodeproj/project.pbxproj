@@ -1,0 +1,1412 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		180268F927C63F950011AA4A /* KalmasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180268F827C63F950011AA4A /* KalmasViewController.swift */; };
+		18065B8E27F312FF006FF667 /* Namaz.json in Resources */ = {isa = PBXBuildFile; fileRef = 18065B8D27F312FE006FF667 /* Namaz.json */; };
+		18065B9027F313C5006FF667 /* NamazViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18065B8F27F313C5006FF667 /* NamazViewController.swift */; };
+		18065B9227F31520006FF667 /* Namaz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18065B9127F31520006FF667 /* Namaz.swift */; };
+		18065B9627F31682006FF667 /* NamazTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18065B9427F31682006FF667 /* NamazTableViewCell.swift */; };
+		18065B9727F31682006FF667 /* NamazTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18065B9527F31682006FF667 /* NamazTableViewCell.xib */; };
+		1830D16627D676DA00161F02 /* HalalFood.json in Resources */ = {isa = PBXBuildFile; fileRef = 1830D16527D676D900161F02 /* HalalFood.json */; };
+		1830D16827D6784C00161F02 /* Foods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1830D16727D6784C00161F02 /* Foods.swift */; };
+		1830D16A27D67E6500161F02 /* FoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1830D16927D67E6500161F02 /* FoodViewController.swift */; };
+		1830D16E27D67F3E00161F02 /* FoodTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1830D16C27D67F3E00161F02 /* FoodTableViewCell.swift */; };
+		1830D16F27D67F3E00161F02 /* FoodTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1830D16D27D67F3E00161F02 /* FoodTableViewCell.xib */; };
+		1830D17227D75CA500161F02 /* PillarsOfIslamViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1830D17127D75CA500161F02 /* PillarsOfIslamViewController.swift */; };
+		1830D17427D75D3000161F02 /* PillarsOfIslam.json in Resources */ = {isa = PBXBuildFile; fileRef = 1830D17327D75D3000161F02 /* PillarsOfIslam.json */; };
+		1830D17627D75D9B00161F02 /* PillarsOfIslam.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1830D17527D75D9B00161F02 /* PillarsOfIslam.swift */; };
+		1830D17A27D75F4300161F02 /* IslamicPillarsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1830D17827D75F4300161F02 /* IslamicPillarsTableViewCell.swift */; };
+		1830D17B27D75F4300161F02 /* IslamicPillarsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1830D17927D75F4300161F02 /* IslamicPillarsTableViewCell.xib */; };
+		1830D17D27D7783A00161F02 /* wudu.json in Resources */ = {isa = PBXBuildFile; fileRef = 1830D17C27D7783A00161F02 /* wudu.json */; };
+		1830D17F27D7785C00161F02 /* Wudu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1830D17E27D7785C00161F02 /* Wudu.swift */; };
+		1830D18127D7792A00161F02 /* WuduViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1830D18027D7792A00161F02 /* WuduViewController.swift */; };
+		1830D18527D77AC300161F02 /* WuduTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1830D18327D77AC300161F02 /* WuduTableViewCell.swift */; };
+		1830D18627D77AC300161F02 /* WuduTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1830D18427D77AC300161F02 /* WuduTableViewCell.xib */; };
+		1830D18827D8765700161F02 /* Ramadan.json in Resources */ = {isa = PBXBuildFile; fileRef = 1830D18727D8765700161F02 /* Ramadan.json */; };
+		1830D18A27D8770800161F02 /* RamadanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1830D18927D8770800161F02 /* RamadanViewController.swift */; };
+		1830D18E27D877D500161F02 /* RamadanTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1830D18C27D877D500161F02 /* RamadanTableViewCell.swift */; };
+		1830D18F27D877D500161F02 /* RamadanTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1830D18D27D877D500161F02 /* RamadanTableViewCell.xib */; };
+		1830D19127D878E400161F02 /* Ramadan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1830D19027D878E400161F02 /* Ramadan.swift */; };
+		1830D19327D8B50500161F02 /* Eid.json in Resources */ = {isa = PBXBuildFile; fileRef = 1830D19227D8B50500161F02 /* Eid.json */; };
+		1830D19527D8B84700161F02 /* IslamicItems.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1830D19427D8B84700161F02 /* IslamicItems.storyboard */; };
+		1830D19727D8B8B800161F02 /* EidViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1830D19627D8B8B800161F02 /* EidViewController.swift */; };
+		1830D19927D8B97B00161F02 /* Eid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1830D19827D8B97B00161F02 /* Eid.swift */; };
+		1830D19D27D8BA3400161F02 /* EidTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1830D19B27D8BA3400161F02 /* EidTableViewCell.swift */; };
+		1830D19E27D8BA3400161F02 /* EidTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1830D19C27D8BA3400161F02 /* EidTableViewCell.xib */; };
+		1830D1A027D9000200161F02 /* AllahNames.json in Resources */ = {isa = PBXBuildFile; fileRef = 1830D19F27D9000200161F02 /* AllahNames.json */; };
+		1830D1A227D9014F00161F02 /* AllahNamesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1830D1A127D9014F00161F02 /* AllahNamesViewController.swift */; };
+		1830D1A627D9030800161F02 /* AllahNamesCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1830D1A427D9030800161F02 /* AllahNamesCollectionViewCell.swift */; };
+		1830D1A727D9030800161F02 /* AllahNamesCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1830D1A527D9030800161F02 /* AllahNamesCollectionViewCell.xib */; };
+		1830D1A927D9120100161F02 /* AllahNames.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1830D1A827D9120100161F02 /* AllahNames.swift */; };
+		1830D1AE27D9372500161F02 /* azan1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1830D1AB27D9372400161F02 /* azan1.mp3 */; };
+		1830D1AF27D9372500161F02 /* azan2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1830D1AC27D9372400161F02 /* azan2.mp3 */; };
+		1830D1B027D9372500161F02 /* azan3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1830D1AD27D9372500161F02 /* azan3.mp3 */; };
+		18318D2027E208C40036B572 /* IslamicViews.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18318D1F27E208C40036B572 /* IslamicViews.storyboard */; };
+		18318D2227E20B230036B572 /* HadithNameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18318D2127E20B230036B572 /* HadithNameViewController.swift */; };
+		18318D2627E20BFC0036B572 /* HadithNameTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18318D2427E20BFC0036B572 /* HadithNameTableViewCell.swift */; };
+		18318D2727E20BFC0036B572 /* HadithNameTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18318D2527E20BFC0036B572 /* HadithNameTableViewCell.xib */; };
+		18318D2B27E20E1E0036B572 /* Hadith.json in Resources */ = {isa = PBXBuildFile; fileRef = 18318D2A27E20E1D0036B572 /* Hadith.json */; };
+		18318D2D27E210550036B572 /* Hadith.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18318D2C27E210550036B572 /* Hadith.swift */; };
+		18335FA427C49B2A0000DDE5 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18335FA327C49B2A0000DDE5 /* MainViewController.swift */; };
+		18335FAD27C4A91F0000DDE5 /* MainIslamicObjectCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18335FAB27C4A91F0000DDE5 /* MainIslamicObjectCollectionViewCell.swift */; };
+		18335FAE27C4A91F0000DDE5 /* MainIslamicObjectCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18335FAC27C4A91F0000DDE5 /* MainIslamicObjectCollectionViewCell.xib */; };
+		18335FB427C4F88D0000DDE5 /* IslamicObject.json in Resources */ = {isa = PBXBuildFile; fileRef = 18335FB327C4F88D0000DDE5 /* IslamicObject.json */; };
+		18335FB627C4F8EA0000DDE5 /* IslamicObjects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18335FB527C4F8EA0000DDE5 /* IslamicObjects.swift */; };
+		1838665227D1CCE30050C2A0 /* IslamicObjects.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1838665127D1CCE30050C2A0 /* IslamicObjects.storyboard */; };
+		183FFE8727CF8DA9009A26F7 /* TotalZakatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183FFE8627CF8DA9009A26F7 /* TotalZakatViewController.swift */; };
+		18408EC627F1818300C052C9 /* HadithTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18408EC427F1818300C052C9 /* HadithTableViewCell.swift */; };
+		18408EC727F1818300C052C9 /* HadithTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18408EC527F1818300C052C9 /* HadithTableViewCell.xib */; };
+		18408EC927F1831D00C052C9 /* HadithViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18408EC827F1831D00C052C9 /* HadithViewController.swift */; };
+		18408ECB27F1984200C052C9 /* GuidanceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18408ECA27F1984200C052C9 /* GuidanceViewController.swift */; };
+		18408ECD27F1BDAC00C052C9 /* Hajj.json in Resources */ = {isa = PBXBuildFile; fileRef = 18408ECC27F1BDAC00C052C9 /* Hajj.json */; };
+		18408ED027F1BE0000C052C9 /* Hajj.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18408ECF27F1BE0000C052C9 /* Hajj.swift */; };
+		18408ED227F1BF6B00C052C9 /* HajjViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18408ED127F1BF6B00C052C9 /* HajjViewController.swift */; };
+		18408ED627F1C01F00C052C9 /* HajjTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18408ED427F1C01F00C052C9 /* HajjTableViewCell.swift */; };
+		18408ED727F1C01F00C052C9 /* HajjTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18408ED527F1C01F00C052C9 /* HajjTableViewCell.xib */; };
+		18408ED927F1C98000C052C9 /* Umrah.json in Resources */ = {isa = PBXBuildFile; fileRef = 18408ED827F1C98000C052C9 /* Umrah.json */; };
+		18408EDC27F1C9B400C052C9 /* UmrahViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18408EDB27F1C9B400C052C9 /* UmrahViewController.swift */; };
+		18408EDE27F1C9DD00C052C9 /* Umrah.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18408EDD27F1C9DD00C052C9 /* Umrah.swift */; };
+		18408EE227F1CB0400C052C9 /* UmrahTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18408EE027F1CB0400C052C9 /* UmrahTableViewCell.swift */; };
+		18408EE327F1CB0400C052C9 /* UmrahTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18408EE127F1CB0400C052C9 /* UmrahTableViewCell.xib */; };
+		1876F58327D9BC2D008DA72C /* Azan.json in Resources */ = {isa = PBXBuildFile; fileRef = 1876F58227D9BC2D008DA72C /* Azan.json */; };
+		1876F58727D9BDAF008DA72C /* AzanTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1876F58527D9BDAF008DA72C /* AzanTableViewCell.swift */; };
+		1876F58827D9BDAF008DA72C /* AzanTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1876F58627D9BDAF008DA72C /* AzanTableViewCell.xib */; };
+		1876F58A27D9BDCF008DA72C /* AzanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1876F58927D9BDCF008DA72C /* AzanViewController.swift */; };
+		1876F58C27D9BDF3008DA72C /* Azan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1876F58B27D9BDF3008DA72C /* Azan.swift */; };
+		1876F58F27D9D8BF008DA72C /* QuranPak.json in Resources */ = {isa = PBXBuildFile; fileRef = 1876F58D27D9D8BD008DA72C /* QuranPak.json */; };
+		1876F59027D9D8BF008DA72C /* QuranPakUrdu.json in Resources */ = {isa = PBXBuildFile; fileRef = 1876F58E27D9D8BE008DA72C /* QuranPakUrdu.json */; };
+		1876F59227D9DD62008DA72C /* SurahsNameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1876F59127D9DD62008DA72C /* SurahsNameViewController.swift */; };
+		1876F59627D9DDF1008DA72C /* SurahsNamesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1876F59427D9DDF1008DA72C /* SurahsNamesTableViewCell.swift */; };
+		1876F59727D9DDF1008DA72C /* SurahsNamesTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1876F59527D9DDF1008DA72C /* SurahsNamesTableViewCell.xib */; };
+		1876F59927D9EA6A008DA72C /* AlQuran.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1876F59827D9EA6A008DA72C /* AlQuran.swift */; };
+		1876F59B27D9FE0F008DA72C /* Quran.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1876F59A27D9FE0F008DA72C /* Quran.swift */; };
+		18784FCA27ED909A0071D259 /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18784FC927ED909A0071D259 /* CalendarViewController.swift */; };
+		18784FCE27EF3D4A0071D259 /* QiblaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18784FCD27EF3D4A0071D259 /* QiblaViewController.swift */; };
+		18808EFC27CD1F46005F58B8 /* kalmas.json in Resources */ = {isa = PBXBuildFile; fileRef = 18808EFB27CD1F46005F58B8 /* kalmas.json */; };
+		18808EFE27CD1FB2005F58B8 /* kalmas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18808EFD27CD1FB2005F58B8 /* kalmas.swift */; };
+		1898905627BE7C34000A3DC9 /* TasbeehViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1898905527BE7C34000A3DC9 /* TasbeehViewController.swift */; };
+		1898905B27BFABAE000A3DC9 /* ZakatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1898905A27BFABAE000A3DC9 /* ZakatViewController.swift */; };
+		18B2DB2227CDED4D00EEADA0 /* 2nd-Qalma-Shahada.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 18B2DB1C27CDED4900EEADA0 /* 2nd-Qalma-Shahada.mp3 */; };
+		18B2DB2327CDED4D00EEADA0 /* 5th-Qalma-Istighfar.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 18B2DB1D27CDED4A00EEADA0 /* 5th-Qalma-Istighfar.mp3 */; };
+		18B2DB2427CDED4D00EEADA0 /* 1st-Qalma-Tayyab.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 18B2DB1E27CDED4A00EEADA0 /* 1st-Qalma-Tayyab.mp3 */; };
+		18B2DB2527CDED4D00EEADA0 /* 6th-Qalma-Radde Kufr.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 18B2DB1F27CDED4B00EEADA0 /* 6th-Qalma-Radde Kufr.mp3 */; };
+		18B2DB2627CDED4D00EEADA0 /* 3rd-Qalma-Tamjeed.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 18B2DB2027CDED4C00EEADA0 /* 3rd-Qalma-Tamjeed.mp3 */; };
+		18B2DB2727CDED4D00EEADA0 /* 4th-Qalma-Tawheed.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 18B2DB2127CDED4D00EEADA0 /* 4th-Qalma-Tawheed.mp3 */; };
+		18C1698927D2188E004E0BCD /* IslamicDuasTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C1698727D2188E004E0BCD /* IslamicDuasTableViewCell.swift */; };
+		18C1698A27D2188E004E0BCD /* IslamicDuasTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18C1698827D2188E004E0BCD /* IslamicDuasTableViewCell.xib */; };
+		18D3663927BD03AF00F2D92B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D3663827BD03AF00F2D92B /* AppDelegate.swift */; };
+		18D3663B27BD03AF00F2D92B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D3663A27BD03AF00F2D92B /* SceneDelegate.swift */; };
+		18D3664027BD03AF00F2D92B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18D3663E27BD03AF00F2D92B /* Main.storyboard */; };
+		18D3664327BD03AF00F2D92B /* Islamic_Application.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 18D3664127BD03AF00F2D92B /* Islamic_Application.xcdatamodeld */; };
+		18D3664527BD03B100F2D92B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18D3664427BD03B100F2D92B /* Assets.xcassets */; };
+		18D3664827BD03B100F2D92B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18D3664627BD03B100F2D92B /* LaunchScreen.storyboard */; };
+		18D3665327BD03B100F2D92B /* Islamic_ApplicationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D3665227BD03B100F2D92B /* Islamic_ApplicationTests.swift */; };
+		18D3665E27BD03B100F2D92B /* Islamic_ApplicationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D3665D27BD03B100F2D92B /* Islamic_ApplicationUITests.swift */; };
+		18D3667B27BE13BE00F2D92B /* IslamicDuas.json in Resources */ = {isa = PBXBuildFile; fileRef = 18D3667A27BE13BE00F2D92B /* IslamicDuas.json */; };
+		18D3667D27BE14D600F2D92B /* DuasNameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D3667C27BE14D600F2D92B /* DuasNameViewController.swift */; };
+		18D3668127BE158800F2D92B /* DuasNameCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D3667F27BE158800F2D92B /* DuasNameCollectionViewCell.swift */; };
+		18D3668227BE158800F2D92B /* DuasNameCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18D3668027BE158800F2D92B /* DuasNameCollectionViewCell.xib */; };
+		18D3668527BE1AD400F2D92B /* IslamicDuas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D3668427BE1AD400F2D92B /* IslamicDuas.swift */; };
+		18D3668C27BE3D1C00F2D92B /* IslamicDuasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D3668B27BE3D1C00F2D92B /* IslamicDuasViewController.swift */; };
+		18EE0E6227F2301C00538A6E /* Pods_Islamic_Application.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD791BE07B504EEA4A68B0C5 /* Pods_Islamic_Application.framework */; };
+		18F71C8827E052020043E53C /* QuranViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F71C8727E052020043E53C /* QuranViewController.swift */; };
+		18F71C8C27E054540043E53C /* AlQuranTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F71C8A27E054540043E53C /* AlQuranTableViewCell.swift */; };
+		18F71C8D27E054540043E53C /* AlQuranTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18F71C8B27E054540043E53C /* AlQuranTableViewCell.xib */; };
+		18F71C9027E082240043E53C /* KalmasTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18F71C8E27E082230043E53C /* KalmasTableViewCell.xib */; };
+		18F71C9127E082240043E53C /* KalmasTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F71C8F27E082240043E53C /* KalmasTableViewCell.swift */; };
+		18F71C9A27E1A7000043E53C /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F71C9927E1A7000043E53C /* Extension.swift */; };
+		255CCBA048829ED09641BCAD /* Pods_Islamic_ApplicationTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4576C6F1E400D369D5E19FEF /* Pods_Islamic_ApplicationTests.framework */; };
+		442B5325B9E95A7E331C9DFB /* Pods_Islamic_Application_Islamic_ApplicationUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A8B5A12C6C04B4937176631 /* Pods_Islamic_Application_Islamic_ApplicationUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18D3664F27BD03B100F2D92B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18D3662D27BD03AE00F2D92B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18D3663427BD03AF00F2D92B;
+			remoteInfo = "Islamic Application";
+		};
+		18D3665A27BD03B100F2D92B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18D3662D27BD03AE00F2D92B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18D3663427BD03AF00F2D92B;
+			remoteInfo = "Islamic Application";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		180268F827C63F950011AA4A /* KalmasViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KalmasViewController.swift; sourceTree = "<group>"; };
+		18065B8D27F312FE006FF667 /* Namaz.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Namaz.json; sourceTree = "<group>"; };
+		18065B8F27F313C5006FF667 /* NamazViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NamazViewController.swift; sourceTree = "<group>"; };
+		18065B9127F31520006FF667 /* Namaz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Namaz.swift; sourceTree = "<group>"; };
+		18065B9427F31682006FF667 /* NamazTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NamazTableViewCell.swift; sourceTree = "<group>"; };
+		18065B9527F31682006FF667 /* NamazTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NamazTableViewCell.xib; sourceTree = "<group>"; };
+		1830D16527D676D900161F02 /* HalalFood.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = HalalFood.json; sourceTree = "<group>"; };
+		1830D16727D6784C00161F02 /* Foods.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Foods.swift; sourceTree = "<group>"; };
+		1830D16927D67E6500161F02 /* FoodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodViewController.swift; sourceTree = "<group>"; };
+		1830D16C27D67F3E00161F02 /* FoodTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodTableViewCell.swift; sourceTree = "<group>"; };
+		1830D16D27D67F3E00161F02 /* FoodTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FoodTableViewCell.xib; sourceTree = "<group>"; };
+		1830D17127D75CA500161F02 /* PillarsOfIslamViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PillarsOfIslamViewController.swift; sourceTree = "<group>"; };
+		1830D17327D75D3000161F02 /* PillarsOfIslam.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = PillarsOfIslam.json; sourceTree = "<group>"; };
+		1830D17527D75D9B00161F02 /* PillarsOfIslam.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PillarsOfIslam.swift; sourceTree = "<group>"; };
+		1830D17827D75F4300161F02 /* IslamicPillarsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IslamicPillarsTableViewCell.swift; sourceTree = "<group>"; };
+		1830D17927D75F4300161F02 /* IslamicPillarsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = IslamicPillarsTableViewCell.xib; sourceTree = "<group>"; };
+		1830D17C27D7783A00161F02 /* wudu.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = wudu.json; sourceTree = "<group>"; };
+		1830D17E27D7785C00161F02 /* Wudu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wudu.swift; sourceTree = "<group>"; };
+		1830D18027D7792A00161F02 /* WuduViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WuduViewController.swift; sourceTree = "<group>"; };
+		1830D18327D77AC300161F02 /* WuduTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WuduTableViewCell.swift; sourceTree = "<group>"; };
+		1830D18427D77AC300161F02 /* WuduTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WuduTableViewCell.xib; sourceTree = "<group>"; };
+		1830D18727D8765700161F02 /* Ramadan.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Ramadan.json; sourceTree = "<group>"; };
+		1830D18927D8770800161F02 /* RamadanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RamadanViewController.swift; sourceTree = "<group>"; };
+		1830D18C27D877D500161F02 /* RamadanTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RamadanTableViewCell.swift; sourceTree = "<group>"; };
+		1830D18D27D877D500161F02 /* RamadanTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RamadanTableViewCell.xib; sourceTree = "<group>"; };
+		1830D19027D878E400161F02 /* Ramadan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ramadan.swift; sourceTree = "<group>"; };
+		1830D19227D8B50500161F02 /* Eid.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Eid.json; sourceTree = "<group>"; };
+		1830D19427D8B84700161F02 /* IslamicItems.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = IslamicItems.storyboard; sourceTree = "<group>"; };
+		1830D19627D8B8B800161F02 /* EidViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EidViewController.swift; sourceTree = "<group>"; };
+		1830D19827D8B97B00161F02 /* Eid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Eid.swift; sourceTree = "<group>"; };
+		1830D19B27D8BA3400161F02 /* EidTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EidTableViewCell.swift; sourceTree = "<group>"; };
+		1830D19C27D8BA3400161F02 /* EidTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EidTableViewCell.xib; sourceTree = "<group>"; };
+		1830D19F27D9000200161F02 /* AllahNames.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = AllahNames.json; sourceTree = "<group>"; };
+		1830D1A127D9014F00161F02 /* AllahNamesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllahNamesViewController.swift; sourceTree = "<group>"; };
+		1830D1A427D9030800161F02 /* AllahNamesCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllahNamesCollectionViewCell.swift; sourceTree = "<group>"; };
+		1830D1A527D9030800161F02 /* AllahNamesCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AllahNamesCollectionViewCell.xib; sourceTree = "<group>"; };
+		1830D1A827D9120100161F02 /* AllahNames.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllahNames.swift; sourceTree = "<group>"; };
+		1830D1AB27D9372400161F02 /* azan1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = azan1.mp3; sourceTree = "<group>"; };
+		1830D1AC27D9372400161F02 /* azan2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = azan2.mp3; sourceTree = "<group>"; };
+		1830D1AD27D9372500161F02 /* azan3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = azan3.mp3; sourceTree = "<group>"; };
+		18318D1F27E208C40036B572 /* IslamicViews.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = IslamicViews.storyboard; sourceTree = "<group>"; };
+		18318D2127E20B230036B572 /* HadithNameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HadithNameViewController.swift; sourceTree = "<group>"; };
+		18318D2427E20BFC0036B572 /* HadithNameTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HadithNameTableViewCell.swift; sourceTree = "<group>"; };
+		18318D2527E20BFC0036B572 /* HadithNameTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HadithNameTableViewCell.xib; sourceTree = "<group>"; };
+		18318D2A27E20E1D0036B572 /* Hadith.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Hadith.json; sourceTree = "<group>"; };
+		18318D2C27E210550036B572 /* Hadith.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hadith.swift; sourceTree = "<group>"; };
+		18335FA327C49B2A0000DDE5 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		18335FAB27C4A91F0000DDE5 /* MainIslamicObjectCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainIslamicObjectCollectionViewCell.swift; sourceTree = "<group>"; };
+		18335FAC27C4A91F0000DDE5 /* MainIslamicObjectCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainIslamicObjectCollectionViewCell.xib; sourceTree = "<group>"; };
+		18335FB327C4F88D0000DDE5 /* IslamicObject.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = IslamicObject.json; sourceTree = "<group>"; };
+		18335FB527C4F8EA0000DDE5 /* IslamicObjects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IslamicObjects.swift; sourceTree = "<group>"; };
+		1838665127D1CCE30050C2A0 /* IslamicObjects.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = IslamicObjects.storyboard; sourceTree = "<group>"; };
+		183FFE8627CF8DA9009A26F7 /* TotalZakatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TotalZakatViewController.swift; sourceTree = "<group>"; };
+		18408EC427F1818300C052C9 /* HadithTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HadithTableViewCell.swift; sourceTree = "<group>"; };
+		18408EC527F1818300C052C9 /* HadithTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HadithTableViewCell.xib; sourceTree = "<group>"; };
+		18408EC827F1831D00C052C9 /* HadithViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HadithViewController.swift; sourceTree = "<group>"; };
+		18408ECA27F1984200C052C9 /* GuidanceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuidanceViewController.swift; sourceTree = "<group>"; };
+		18408ECC27F1BDAC00C052C9 /* Hajj.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Hajj.json; sourceTree = "<group>"; };
+		18408ECF27F1BE0000C052C9 /* Hajj.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hajj.swift; sourceTree = "<group>"; };
+		18408ED127F1BF6B00C052C9 /* HajjViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HajjViewController.swift; sourceTree = "<group>"; };
+		18408ED427F1C01F00C052C9 /* HajjTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HajjTableViewCell.swift; sourceTree = "<group>"; };
+		18408ED527F1C01F00C052C9 /* HajjTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HajjTableViewCell.xib; sourceTree = "<group>"; };
+		18408ED827F1C98000C052C9 /* Umrah.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Umrah.json; sourceTree = "<group>"; };
+		18408EDB27F1C9B400C052C9 /* UmrahViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UmrahViewController.swift; sourceTree = "<group>"; };
+		18408EDD27F1C9DD00C052C9 /* Umrah.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Umrah.swift; sourceTree = "<group>"; };
+		18408EE027F1CB0400C052C9 /* UmrahTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UmrahTableViewCell.swift; sourceTree = "<group>"; };
+		18408EE127F1CB0400C052C9 /* UmrahTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UmrahTableViewCell.xib; sourceTree = "<group>"; };
+		1876F58227D9BC2D008DA72C /* Azan.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Azan.json; sourceTree = "<group>"; };
+		1876F58527D9BDAF008DA72C /* AzanTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AzanTableViewCell.swift; sourceTree = "<group>"; };
+		1876F58627D9BDAF008DA72C /* AzanTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AzanTableViewCell.xib; sourceTree = "<group>"; };
+		1876F58927D9BDCF008DA72C /* AzanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AzanViewController.swift; sourceTree = "<group>"; };
+		1876F58B27D9BDF3008DA72C /* Azan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Azan.swift; sourceTree = "<group>"; };
+		1876F58D27D9D8BD008DA72C /* QuranPak.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = QuranPak.json; sourceTree = "<group>"; };
+		1876F58E27D9D8BE008DA72C /* QuranPakUrdu.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = QuranPakUrdu.json; sourceTree = "<group>"; };
+		1876F59127D9DD62008DA72C /* SurahsNameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurahsNameViewController.swift; sourceTree = "<group>"; };
+		1876F59427D9DDF1008DA72C /* SurahsNamesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurahsNamesTableViewCell.swift; sourceTree = "<group>"; };
+		1876F59527D9DDF1008DA72C /* SurahsNamesTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SurahsNamesTableViewCell.xib; sourceTree = "<group>"; };
+		1876F59827D9EA6A008DA72C /* AlQuran.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlQuran.swift; sourceTree = "<group>"; };
+		1876F59A27D9FE0F008DA72C /* Quran.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quran.swift; sourceTree = "<group>"; };
+		18784FC927ED909A0071D259 /* CalendarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
+		18784FCD27EF3D4A0071D259 /* QiblaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QiblaViewController.swift; sourceTree = "<group>"; };
+		18808EFB27CD1F46005F58B8 /* kalmas.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = kalmas.json; sourceTree = "<group>"; };
+		18808EFD27CD1FB2005F58B8 /* kalmas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kalmas.swift; sourceTree = "<group>"; };
+		1898905527BE7C34000A3DC9 /* TasbeehViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasbeehViewController.swift; sourceTree = "<group>"; };
+		1898905A27BFABAE000A3DC9 /* ZakatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZakatViewController.swift; sourceTree = "<group>"; };
+		18B2DB1C27CDED4900EEADA0 /* 2nd-Qalma-Shahada.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "2nd-Qalma-Shahada.mp3"; sourceTree = "<group>"; };
+		18B2DB1D27CDED4A00EEADA0 /* 5th-Qalma-Istighfar.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "5th-Qalma-Istighfar.mp3"; sourceTree = "<group>"; };
+		18B2DB1E27CDED4A00EEADA0 /* 1st-Qalma-Tayyab.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "1st-Qalma-Tayyab.mp3"; sourceTree = "<group>"; };
+		18B2DB1F27CDED4B00EEADA0 /* 6th-Qalma-Radde Kufr.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "6th-Qalma-Radde Kufr.mp3"; sourceTree = "<group>"; };
+		18B2DB2027CDED4C00EEADA0 /* 3rd-Qalma-Tamjeed.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "3rd-Qalma-Tamjeed.mp3"; sourceTree = "<group>"; };
+		18B2DB2127CDED4D00EEADA0 /* 4th-Qalma-Tawheed.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "4th-Qalma-Tawheed.mp3"; sourceTree = "<group>"; };
+		18C1698727D2188E004E0BCD /* IslamicDuasTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IslamicDuasTableViewCell.swift; sourceTree = "<group>"; };
+		18C1698827D2188E004E0BCD /* IslamicDuasTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = IslamicDuasTableViewCell.xib; sourceTree = "<group>"; };
+		18D3663527BD03AF00F2D92B /* Islamic Application.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Islamic Application.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18D3663827BD03AF00F2D92B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		18D3663A27BD03AF00F2D92B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		18D3663F27BD03AF00F2D92B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18D3664227BD03AF00F2D92B /* Islamic_Application.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Islamic_Application.xcdatamodel; sourceTree = "<group>"; };
+		18D3664427BD03B100F2D92B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18D3664727BD03B100F2D92B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18D3664927BD03B100F2D92B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18D3664E27BD03B100F2D92B /* Islamic ApplicationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Islamic ApplicationTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18D3665227BD03B100F2D92B /* Islamic_ApplicationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Islamic_ApplicationTests.swift; sourceTree = "<group>"; };
+		18D3665427BD03B100F2D92B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18D3665927BD03B100F2D92B /* Islamic ApplicationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Islamic ApplicationUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18D3665D27BD03B100F2D92B /* Islamic_ApplicationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Islamic_ApplicationUITests.swift; sourceTree = "<group>"; };
+		18D3665F27BD03B100F2D92B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18D3667A27BE13BE00F2D92B /* IslamicDuas.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = IslamicDuas.json; sourceTree = "<group>"; };
+		18D3667C27BE14D600F2D92B /* DuasNameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DuasNameViewController.swift; sourceTree = "<group>"; };
+		18D3667F27BE158800F2D92B /* DuasNameCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DuasNameCollectionViewCell.swift; sourceTree = "<group>"; };
+		18D3668027BE158800F2D92B /* DuasNameCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DuasNameCollectionViewCell.xib; sourceTree = "<group>"; };
+		18D3668427BE1AD400F2D92B /* IslamicDuas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IslamicDuas.swift; sourceTree = "<group>"; };
+		18D3668B27BE3D1C00F2D92B /* IslamicDuasViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IslamicDuasViewController.swift; sourceTree = "<group>"; };
+		18F71C8727E052020043E53C /* QuranViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuranViewController.swift; sourceTree = "<group>"; };
+		18F71C8A27E054540043E53C /* AlQuranTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlQuranTableViewCell.swift; sourceTree = "<group>"; };
+		18F71C8B27E054540043E53C /* AlQuranTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AlQuranTableViewCell.xib; sourceTree = "<group>"; };
+		18F71C8E27E082230043E53C /* KalmasTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KalmasTableViewCell.xib; sourceTree = "<group>"; };
+		18F71C8F27E082240043E53C /* KalmasTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KalmasTableViewCell.swift; sourceTree = "<group>"; };
+		18F71C9927E1A7000043E53C /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		2A8B5A12C6C04B4937176631 /* Pods_Islamic_Application_Islamic_ApplicationUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Islamic_Application_Islamic_ApplicationUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4576C6F1E400D369D5E19FEF /* Pods_Islamic_ApplicationTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Islamic_ApplicationTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		656CFAD9D4AF621AA9DBC6E5 /* Pods-Islamic Application.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Islamic Application.release.xcconfig"; path = "Target Support Files/Pods-Islamic Application/Pods-Islamic Application.release.xcconfig"; sourceTree = "<group>"; };
+		6F0DF5B3C165A6C364833901 /* Pods-Islamic Application-Islamic ApplicationUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Islamic Application-Islamic ApplicationUITests.debug.xcconfig"; path = "Target Support Files/Pods-Islamic Application-Islamic ApplicationUITests/Pods-Islamic Application-Islamic ApplicationUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		76BE7E543EA410DC48872AE4 /* Pods-Islamic ApplicationTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Islamic ApplicationTests.release.xcconfig"; path = "Target Support Files/Pods-Islamic ApplicationTests/Pods-Islamic ApplicationTests.release.xcconfig"; sourceTree = "<group>"; };
+		8D9628A781A6F6F3FE10F206 /* Pods-Islamic Application-Islamic ApplicationUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Islamic Application-Islamic ApplicationUITests.release.xcconfig"; path = "Target Support Files/Pods-Islamic Application-Islamic ApplicationUITests/Pods-Islamic Application-Islamic ApplicationUITests.release.xcconfig"; sourceTree = "<group>"; };
+		CEAAC6952B4C9D91FB29ABEB /* Pods-Islamic Application.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Islamic Application.debug.xcconfig"; path = "Target Support Files/Pods-Islamic Application/Pods-Islamic Application.debug.xcconfig"; sourceTree = "<group>"; };
+		DD791BE07B504EEA4A68B0C5 /* Pods_Islamic_Application.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Islamic_Application.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E538A05FE0A3B6A5E03E8D9E /* Pods-Islamic ApplicationTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Islamic ApplicationTests.debug.xcconfig"; path = "Target Support Files/Pods-Islamic ApplicationTests/Pods-Islamic ApplicationTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18D3663227BD03AF00F2D92B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18EE0E6227F2301C00538A6E /* Pods_Islamic_Application.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18D3664B27BD03B100F2D92B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				255CCBA048829ED09641BCAD /* Pods_Islamic_ApplicationTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18D3665627BD03B100F2D92B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				442B5325B9E95A7E331C9DFB /* Pods_Islamic_Application_Islamic_ApplicationUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		180268FA27C640C40011AA4A /* Tabel Cell */ = {
+			isa = PBXGroup;
+			children = (
+				18065B9327F31648006FF667 /* Namaz */,
+				18408EDF27F1CAB800C052C9 /* Umrah */,
+				18408ED327F1BFF700C052C9 /* Hajj */,
+				18408EC327F1815A00C052C9 /* Hadith */,
+				18318D2327E20BCF0036B572 /* HadithName */,
+				18F71C8927E0542C0043E53C /* Al-Quran */,
+				1876F59327D9DDCD008DA72C /* surahsNames */,
+				1876F58427D9BD8F008DA72C /* Azan */,
+				1830D19A27D8BA0A00161F02 /* Eid */,
+				1830D18B27D8779900161F02 /* Ramadan */,
+				1830D18227D77AA000161F02 /* Wudu */,
+				1830D17727D75F0D00161F02 /* pillars Of Islam */,
+				1830D17027D7255E00161F02 /* kalmas  */,
+				1830D16B27D67F1500161F02 /* Foods  */,
+				1838665327D1F3020050C2A0 /* Islamic Duas  */,
+			);
+			path = "Tabel Cell";
+			sourceTree = "<group>";
+		};
+		18065B9327F31648006FF667 /* Namaz */ = {
+			isa = PBXGroup;
+			children = (
+				18065B9427F31682006FF667 /* NamazTableViewCell.swift */,
+				18065B9527F31682006FF667 /* NamazTableViewCell.xib */,
+			);
+			path = Namaz;
+			sourceTree = "<group>";
+		};
+		1830D16B27D67F1500161F02 /* Foods  */ = {
+			isa = PBXGroup;
+			children = (
+				1830D16C27D67F3E00161F02 /* FoodTableViewCell.swift */,
+				1830D16D27D67F3E00161F02 /* FoodTableViewCell.xib */,
+			);
+			path = "Foods ";
+			sourceTree = "<group>";
+		};
+		1830D17027D7255E00161F02 /* kalmas  */ = {
+			isa = PBXGroup;
+			children = (
+				18F71C8F27E082240043E53C /* KalmasTableViewCell.swift */,
+				18F71C8E27E082230043E53C /* KalmasTableViewCell.xib */,
+			);
+			path = "kalmas ";
+			sourceTree = "<group>";
+		};
+		1830D17727D75F0D00161F02 /* pillars Of Islam */ = {
+			isa = PBXGroup;
+			children = (
+				1830D17827D75F4300161F02 /* IslamicPillarsTableViewCell.swift */,
+				1830D17927D75F4300161F02 /* IslamicPillarsTableViewCell.xib */,
+			);
+			path = "pillars Of Islam";
+			sourceTree = "<group>";
+		};
+		1830D18227D77AA000161F02 /* Wudu */ = {
+			isa = PBXGroup;
+			children = (
+				1830D18327D77AC300161F02 /* WuduTableViewCell.swift */,
+				1830D18427D77AC300161F02 /* WuduTableViewCell.xib */,
+			);
+			path = Wudu;
+			sourceTree = "<group>";
+		};
+		1830D18B27D8779900161F02 /* Ramadan */ = {
+			isa = PBXGroup;
+			children = (
+				1830D18C27D877D500161F02 /* RamadanTableViewCell.swift */,
+				1830D18D27D877D500161F02 /* RamadanTableViewCell.xib */,
+			);
+			path = Ramadan;
+			sourceTree = "<group>";
+		};
+		1830D19A27D8BA0A00161F02 /* Eid */ = {
+			isa = PBXGroup;
+			children = (
+				1830D19B27D8BA3400161F02 /* EidTableViewCell.swift */,
+				1830D19C27D8BA3400161F02 /* EidTableViewCell.xib */,
+			);
+			path = Eid;
+			sourceTree = "<group>";
+		};
+		1830D1A327D902B400161F02 /* AllahNames */ = {
+			isa = PBXGroup;
+			children = (
+				1830D1A427D9030800161F02 /* AllahNamesCollectionViewCell.swift */,
+				1830D1A527D9030800161F02 /* AllahNamesCollectionViewCell.xib */,
+			);
+			path = AllahNames;
+			sourceTree = "<group>";
+		};
+		1830D1AA27D9370300161F02 /* Azan Audio */ = {
+			isa = PBXGroup;
+			children = (
+				1830D1AB27D9372400161F02 /* azan1.mp3 */,
+				1830D1AC27D9372400161F02 /* azan2.mp3 */,
+				1830D1AD27D9372500161F02 /* azan3.mp3 */,
+			);
+			path = "Azan Audio";
+			sourceTree = "<group>";
+		};
+		18318D2327E20BCF0036B572 /* HadithName */ = {
+			isa = PBXGroup;
+			children = (
+				18318D2427E20BFC0036B572 /* HadithNameTableViewCell.swift */,
+				18318D2527E20BFC0036B572 /* HadithNameTableViewCell.xib */,
+			);
+			path = HadithName;
+			sourceTree = "<group>";
+		};
+		18335FAA27C4A8D70000DDE5 /* MainIslamicObject */ = {
+			isa = PBXGroup;
+			children = (
+				18335FAB27C4A91F0000DDE5 /* MainIslamicObjectCollectionViewCell.swift */,
+				18335FAC27C4A91F0000DDE5 /* MainIslamicObjectCollectionViewCell.xib */,
+			);
+			path = MainIslamicObject;
+			sourceTree = "<group>";
+		};
+		1838665327D1F3020050C2A0 /* Islamic Duas  */ = {
+			isa = PBXGroup;
+			children = (
+				18C1698727D2188E004E0BCD /* IslamicDuasTableViewCell.swift */,
+				18C1698827D2188E004E0BCD /* IslamicDuasTableViewCell.xib */,
+			);
+			path = "Islamic Duas ";
+			sourceTree = "<group>";
+		};
+		18408EC327F1815A00C052C9 /* Hadith */ = {
+			isa = PBXGroup;
+			children = (
+				18408EC427F1818300C052C9 /* HadithTableViewCell.swift */,
+				18408EC527F1818300C052C9 /* HadithTableViewCell.xib */,
+			);
+			path = Hadith;
+			sourceTree = "<group>";
+		};
+		18408ED327F1BFF700C052C9 /* Hajj */ = {
+			isa = PBXGroup;
+			children = (
+				18408ED427F1C01F00C052C9 /* HajjTableViewCell.swift */,
+				18408ED527F1C01F00C052C9 /* HajjTableViewCell.xib */,
+			);
+			path = Hajj;
+			sourceTree = "<group>";
+		};
+		18408EDF27F1CAB800C052C9 /* Umrah */ = {
+			isa = PBXGroup;
+			children = (
+				18408EE027F1CB0400C052C9 /* UmrahTableViewCell.swift */,
+				18408EE127F1CB0400C052C9 /* UmrahTableViewCell.xib */,
+			);
+			path = Umrah;
+			sourceTree = "<group>";
+		};
+		1876F58427D9BD8F008DA72C /* Azan */ = {
+			isa = PBXGroup;
+			children = (
+				1876F58527D9BDAF008DA72C /* AzanTableViewCell.swift */,
+				1876F58627D9BDAF008DA72C /* AzanTableViewCell.xib */,
+			);
+			path = Azan;
+			sourceTree = "<group>";
+		};
+		1876F59327D9DDCD008DA72C /* surahsNames */ = {
+			isa = PBXGroup;
+			children = (
+				1876F59427D9DDF1008DA72C /* SurahsNamesTableViewCell.swift */,
+				1876F59527D9DDF1008DA72C /* SurahsNamesTableViewCell.xib */,
+			);
+			path = surahsNames;
+			sourceTree = "<group>";
+		};
+		1898905727BF5D81000A3DC9 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				18F71C9927E1A7000043E53C /* Extension.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		18B2DB1B27CDECEB00EEADA0 /* Kalmas Audio */ = {
+			isa = PBXGroup;
+			children = (
+				18B2DB1E27CDED4A00EEADA0 /* 1st-Qalma-Tayyab.mp3 */,
+				18B2DB1C27CDED4900EEADA0 /* 2nd-Qalma-Shahada.mp3 */,
+				18B2DB2027CDED4C00EEADA0 /* 3rd-Qalma-Tamjeed.mp3 */,
+				18B2DB2127CDED4D00EEADA0 /* 4th-Qalma-Tawheed.mp3 */,
+				18B2DB1D27CDED4A00EEADA0 /* 5th-Qalma-Istighfar.mp3 */,
+				18B2DB1F27CDED4B00EEADA0 /* 6th-Qalma-Radde Kufr.mp3 */,
+			);
+			path = "Kalmas Audio";
+			sourceTree = "<group>";
+		};
+		18B2DB2827CDEEB400EEADA0 /* Media */ = {
+			isa = PBXGroup;
+			children = (
+				1830D1AA27D9370300161F02 /* Azan Audio */,
+				18B2DB1B27CDECEB00EEADA0 /* Kalmas Audio */,
+			);
+			path = Media;
+			sourceTree = "<group>";
+		};
+		18D3662C27BD03AE00F2D92B = {
+			isa = PBXGroup;
+			children = (
+				18D3663727BD03AF00F2D92B /* Islamic Application */,
+				18D3665127BD03B100F2D92B /* Islamic ApplicationTests */,
+				18D3665C27BD03B100F2D92B /* Islamic ApplicationUITests */,
+				18D3663627BD03AF00F2D92B /* Products */,
+				BC7F141808834214FB37AB33 /* Pods */,
+				D256072C4D8625793088B76C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		18D3663627BD03AF00F2D92B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18D3663527BD03AF00F2D92B /* Islamic Application.app */,
+				18D3664E27BD03B100F2D92B /* Islamic ApplicationTests.xctest */,
+				18D3665927BD03B100F2D92B /* Islamic ApplicationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18D3663727BD03AF00F2D92B /* Islamic Application */ = {
+			isa = PBXGroup;
+			children = (
+				18D3668A27BE3C5900F2D92B /* view */,
+				18D3668327BE1AB700F2D92B /* Model Class */,
+				1898905727BF5D81000A3DC9 /* Helper */,
+				18D3667927BE139300F2D92B /* Json File */,
+				18D3663E27BD03AF00F2D92B /* Main.storyboard */,
+				1838665127D1CCE30050C2A0 /* IslamicObjects.storyboard */,
+				1830D19427D8B84700161F02 /* IslamicItems.storyboard */,
+				18318D1F27E208C40036B572 /* IslamicViews.storyboard */,
+				18B2DB2827CDEEB400EEADA0 /* Media */,
+				18D3664427BD03B100F2D92B /* Assets.xcassets */,
+				18D3664627BD03B100F2D92B /* LaunchScreen.storyboard */,
+				18D3664927BD03B100F2D92B /* Info.plist */,
+				18D3664127BD03AF00F2D92B /* Islamic_Application.xcdatamodeld */,
+			);
+			path = "Islamic Application";
+			sourceTree = "<group>";
+		};
+		18D3665127BD03B100F2D92B /* Islamic ApplicationTests */ = {
+			isa = PBXGroup;
+			children = (
+				18D3665227BD03B100F2D92B /* Islamic_ApplicationTests.swift */,
+				18D3665427BD03B100F2D92B /* Info.plist */,
+			);
+			path = "Islamic ApplicationTests";
+			sourceTree = "<group>";
+		};
+		18D3665C27BD03B100F2D92B /* Islamic ApplicationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				18D3665D27BD03B100F2D92B /* Islamic_ApplicationUITests.swift */,
+				18D3665F27BD03B100F2D92B /* Info.plist */,
+			);
+			path = "Islamic ApplicationUITests";
+			sourceTree = "<group>";
+		};
+		18D3667927BE139300F2D92B /* Json File */ = {
+			isa = PBXGroup;
+			children = (
+				18318D2A27E20E1D0036B572 /* Hadith.json */,
+				1876F58D27D9D8BD008DA72C /* QuranPak.json */,
+				1876F58E27D9D8BE008DA72C /* QuranPakUrdu.json */,
+				1876F58227D9BC2D008DA72C /* Azan.json */,
+				1830D19F27D9000200161F02 /* AllahNames.json */,
+				18065B8D27F312FE006FF667 /* Namaz.json */,
+				1830D19227D8B50500161F02 /* Eid.json */,
+				1830D17C27D7783A00161F02 /* wudu.json */,
+				18408ED827F1C98000C052C9 /* Umrah.json */,
+				1830D17327D75D3000161F02 /* PillarsOfIslam.json */,
+				1830D16527D676D900161F02 /* HalalFood.json */,
+				18335FB327C4F88D0000DDE5 /* IslamicObject.json */,
+				18808EFB27CD1F46005F58B8 /* kalmas.json */,
+				1830D18727D8765700161F02 /* Ramadan.json */,
+				18408ECC27F1BDAC00C052C9 /* Hajj.json */,
+				18D3667A27BE13BE00F2D92B /* IslamicDuas.json */,
+			);
+			path = "Json File";
+			sourceTree = "<group>";
+		};
+		18D3667E27BE154400F2D92B /* CollectionView Cell */ = {
+			isa = PBXGroup;
+			children = (
+				1830D1A327D902B400161F02 /* AllahNames */,
+				18335FAA27C4A8D70000DDE5 /* MainIslamicObject */,
+				18D3668D27BE3D9B00F2D92B /* Duas Name */,
+			);
+			path = "CollectionView Cell";
+			sourceTree = "<group>";
+		};
+		18D3668327BE1AB700F2D92B /* Model Class */ = {
+			isa = PBXGroup;
+			children = (
+				18D3668427BE1AD400F2D92B /* IslamicDuas.swift */,
+				18335FB527C4F8EA0000DDE5 /* IslamicObjects.swift */,
+				18808EFD27CD1FB2005F58B8 /* kalmas.swift */,
+				1830D16727D6784C00161F02 /* Foods.swift */,
+				1830D17527D75D9B00161F02 /* PillarsOfIslam.swift */,
+				1830D17E27D7785C00161F02 /* Wudu.swift */,
+				1830D19027D878E400161F02 /* Ramadan.swift */,
+				1830D19827D8B97B00161F02 /* Eid.swift */,
+				1830D1A827D9120100161F02 /* AllahNames.swift */,
+				1876F58B27D9BDF3008DA72C /* Azan.swift */,
+				1876F59827D9EA6A008DA72C /* AlQuran.swift */,
+				1876F59A27D9FE0F008DA72C /* Quran.swift */,
+				18318D2C27E210550036B572 /* Hadith.swift */,
+				18408ECF27F1BE0000C052C9 /* Hajj.swift */,
+				18408EDD27F1C9DD00C052C9 /* Umrah.swift */,
+				18065B9127F31520006FF667 /* Namaz.swift */,
+			);
+			path = "Model Class";
+			sourceTree = "<group>";
+		};
+		18D3668A27BE3C5900F2D92B /* view */ = {
+			isa = PBXGroup;
+			children = (
+				18D3667E27BE154400F2D92B /* CollectionView Cell */,
+				180268FA27C640C40011AA4A /* Tabel Cell */,
+				18F71C9727E1A51E0043E53C /* UIResponder */,
+				18F71C9827E1A53C0043E53C /* Controllers */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		18D3668D27BE3D9B00F2D92B /* Duas Name */ = {
+			isa = PBXGroup;
+			children = (
+				18D3667F27BE158800F2D92B /* DuasNameCollectionViewCell.swift */,
+				18D3668027BE158800F2D92B /* DuasNameCollectionViewCell.xib */,
+			);
+			path = "Duas Name";
+			sourceTree = "<group>";
+		};
+		18F71C8927E0542C0043E53C /* Al-Quran */ = {
+			isa = PBXGroup;
+			children = (
+				18F71C8A27E054540043E53C /* AlQuranTableViewCell.swift */,
+				18F71C8B27E054540043E53C /* AlQuranTableViewCell.xib */,
+			);
+			path = "Al-Quran";
+			sourceTree = "<group>";
+		};
+		18F71C9727E1A51E0043E53C /* UIResponder */ = {
+			isa = PBXGroup;
+			children = (
+				18D3663A27BD03AF00F2D92B /* SceneDelegate.swift */,
+				18D3663827BD03AF00F2D92B /* AppDelegate.swift */,
+			);
+			path = UIResponder;
+			sourceTree = "<group>";
+		};
+		18F71C9827E1A53C0043E53C /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				18D3667C27BE14D600F2D92B /* DuasNameViewController.swift */,
+				18335FA327C49B2A0000DDE5 /* MainViewController.swift */,
+				18D3668B27BE3D1C00F2D92B /* IslamicDuasViewController.swift */,
+				1898905527BE7C34000A3DC9 /* TasbeehViewController.swift */,
+				1898905A27BFABAE000A3DC9 /* ZakatViewController.swift */,
+				180268F827C63F950011AA4A /* KalmasViewController.swift */,
+				183FFE8627CF8DA9009A26F7 /* TotalZakatViewController.swift */,
+				1830D16927D67E6500161F02 /* FoodViewController.swift */,
+				1830D17127D75CA500161F02 /* PillarsOfIslamViewController.swift */,
+				1830D18027D7792A00161F02 /* WuduViewController.swift */,
+				1830D18927D8770800161F02 /* RamadanViewController.swift */,
+				1830D19627D8B8B800161F02 /* EidViewController.swift */,
+				1830D1A127D9014F00161F02 /* AllahNamesViewController.swift */,
+				1876F59127D9DD62008DA72C /* SurahsNameViewController.swift */,
+				18F71C8727E052020043E53C /* QuranViewController.swift */,
+				1876F58927D9BDCF008DA72C /* AzanViewController.swift */,
+				18318D2127E20B230036B572 /* HadithNameViewController.swift */,
+				18784FC927ED909A0071D259 /* CalendarViewController.swift */,
+				18784FCD27EF3D4A0071D259 /* QiblaViewController.swift */,
+				18408EC827F1831D00C052C9 /* HadithViewController.swift */,
+				18408ECA27F1984200C052C9 /* GuidanceViewController.swift */,
+				18408ED127F1BF6B00C052C9 /* HajjViewController.swift */,
+				18408EDB27F1C9B400C052C9 /* UmrahViewController.swift */,
+				18065B8F27F313C5006FF667 /* NamazViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		BC7F141808834214FB37AB33 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CEAAC6952B4C9D91FB29ABEB /* Pods-Islamic Application.debug.xcconfig */,
+				656CFAD9D4AF621AA9DBC6E5 /* Pods-Islamic Application.release.xcconfig */,
+				6F0DF5B3C165A6C364833901 /* Pods-Islamic Application-Islamic ApplicationUITests.debug.xcconfig */,
+				8D9628A781A6F6F3FE10F206 /* Pods-Islamic Application-Islamic ApplicationUITests.release.xcconfig */,
+				E538A05FE0A3B6A5E03E8D9E /* Pods-Islamic ApplicationTests.debug.xcconfig */,
+				76BE7E543EA410DC48872AE4 /* Pods-Islamic ApplicationTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D256072C4D8625793088B76C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DD791BE07B504EEA4A68B0C5 /* Pods_Islamic_Application.framework */,
+				2A8B5A12C6C04B4937176631 /* Pods_Islamic_Application_Islamic_ApplicationUITests.framework */,
+				4576C6F1E400D369D5E19FEF /* Pods_Islamic_ApplicationTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18D3663427BD03AF00F2D92B /* Islamic Application */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18D3666227BD03B100F2D92B /* Build configuration list for PBXNativeTarget "Islamic Application" */;
+			buildPhases = (
+				68BC703F4BE4B739B0DD3556 /* [CP] Check Pods Manifest.lock */,
+				18D3663127BD03AF00F2D92B /* Sources */,
+				18D3663227BD03AF00F2D92B /* Frameworks */,
+				18D3663327BD03AF00F2D92B /* Resources */,
+				1309162286B40A3C52FB686B /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Islamic Application";
+			productName = "Islamic Application";
+			productReference = 18D3663527BD03AF00F2D92B /* Islamic Application.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18D3664D27BD03B100F2D92B /* Islamic ApplicationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18D3666527BD03B100F2D92B /* Build configuration list for PBXNativeTarget "Islamic ApplicationTests" */;
+			buildPhases = (
+				8DDD0A0E8CC00D860C68B0ED /* [CP] Check Pods Manifest.lock */,
+				18D3664A27BD03B100F2D92B /* Sources */,
+				18D3664B27BD03B100F2D92B /* Frameworks */,
+				18D3664C27BD03B100F2D92B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18D3665027BD03B100F2D92B /* PBXTargetDependency */,
+			);
+			name = "Islamic ApplicationTests";
+			productName = "Islamic ApplicationTests";
+			productReference = 18D3664E27BD03B100F2D92B /* Islamic ApplicationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		18D3665827BD03B100F2D92B /* Islamic ApplicationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18D3666827BD03B100F2D92B /* Build configuration list for PBXNativeTarget "Islamic ApplicationUITests" */;
+			buildPhases = (
+				ABE327CD91717D1A18B1F3A8 /* [CP] Check Pods Manifest.lock */,
+				18D3665527BD03B100F2D92B /* Sources */,
+				18D3665627BD03B100F2D92B /* Frameworks */,
+				18D3665727BD03B100F2D92B /* Resources */,
+				A6112B63CFC0A64A01771997 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18D3665B27BD03B100F2D92B /* PBXTargetDependency */,
+			);
+			name = "Islamic ApplicationUITests";
+			productName = "Islamic ApplicationUITests";
+			productReference = 18D3665927BD03B100F2D92B /* Islamic ApplicationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18D3662D27BD03AE00F2D92B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = arid;
+				TargetAttributes = {
+					18D3663427BD03AF00F2D92B = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					18D3664D27BD03B100F2D92B = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 18D3663427BD03AF00F2D92B;
+					};
+					18D3665827BD03B100F2D92B = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 18D3663427BD03AF00F2D92B;
+					};
+				};
+			};
+			buildConfigurationList = 18D3663027BD03AE00F2D92B /* Build configuration list for PBXProject "Islamic Application" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18D3662C27BD03AE00F2D92B;
+			productRefGroup = 18D3663627BD03AF00F2D92B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18D3663427BD03AF00F2D92B /* Islamic Application */,
+				18D3664D27BD03B100F2D92B /* Islamic ApplicationTests */,
+				18D3665827BD03B100F2D92B /* Islamic ApplicationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18D3663327BD03AF00F2D92B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1876F58F27D9D8BF008DA72C /* QuranPak.json in Resources */,
+				1830D17D27D7783A00161F02 /* wudu.json in Resources */,
+				18B2DB2327CDED4D00EEADA0 /* 5th-Qalma-Istighfar.mp3 in Resources */,
+				18808EFC27CD1F46005F58B8 /* kalmas.json in Resources */,
+				1830D1AF27D9372500161F02 /* azan2.mp3 in Resources */,
+				1830D16F27D67F3E00161F02 /* FoodTableViewCell.xib in Resources */,
+				18318D2027E208C40036B572 /* IslamicViews.storyboard in Resources */,
+				1830D17427D75D3000161F02 /* PillarsOfIslam.json in Resources */,
+				1830D18627D77AC300161F02 /* WuduTableViewCell.xib in Resources */,
+				1830D1B027D9372500161F02 /* azan3.mp3 in Resources */,
+				18F71C9027E082240043E53C /* KalmasTableViewCell.xib in Resources */,
+				1830D1AE27D9372500161F02 /* azan1.mp3 in Resources */,
+				1830D17B27D75F4300161F02 /* IslamicPillarsTableViewCell.xib in Resources */,
+				1830D18F27D877D500161F02 /* RamadanTableViewCell.xib in Resources */,
+				1830D1A727D9030800161F02 /* AllahNamesCollectionViewCell.xib in Resources */,
+				18B2DB2727CDED4D00EEADA0 /* 4th-Qalma-Tawheed.mp3 in Resources */,
+				18C1698A27D2188E004E0BCD /* IslamicDuasTableViewCell.xib in Resources */,
+				18408ED927F1C98000C052C9 /* Umrah.json in Resources */,
+				18D3668227BE158800F2D92B /* DuasNameCollectionViewCell.xib in Resources */,
+				1876F58327D9BC2D008DA72C /* Azan.json in Resources */,
+				18D3664827BD03B100F2D92B /* LaunchScreen.storyboard in Resources */,
+				1830D16627D676DA00161F02 /* HalalFood.json in Resources */,
+				18318D2727E20BFC0036B572 /* HadithNameTableViewCell.xib in Resources */,
+				18B2DB2627CDED4D00EEADA0 /* 3rd-Qalma-Tamjeed.mp3 in Resources */,
+				1830D19E27D8BA3400161F02 /* EidTableViewCell.xib in Resources */,
+				18F71C8D27E054540043E53C /* AlQuranTableViewCell.xib in Resources */,
+				1830D18827D8765700161F02 /* Ramadan.json in Resources */,
+				18318D2B27E20E1E0036B572 /* Hadith.json in Resources */,
+				18B2DB2527CDED4D00EEADA0 /* 6th-Qalma-Radde Kufr.mp3 in Resources */,
+				1830D19327D8B50500161F02 /* Eid.json in Resources */,
+				18408ECD27F1BDAC00C052C9 /* Hajj.json in Resources */,
+				1876F59027D9D8BF008DA72C /* QuranPakUrdu.json in Resources */,
+				18335FB427C4F88D0000DDE5 /* IslamicObject.json in Resources */,
+				1876F59727D9DDF1008DA72C /* SurahsNamesTableViewCell.xib in Resources */,
+				18D3664527BD03B100F2D92B /* Assets.xcassets in Resources */,
+				18B2DB2427CDED4D00EEADA0 /* 1st-Qalma-Tayyab.mp3 in Resources */,
+				1830D1A027D9000200161F02 /* AllahNames.json in Resources */,
+				18408EC727F1818300C052C9 /* HadithTableViewCell.xib in Resources */,
+				18335FAE27C4A91F0000DDE5 /* MainIslamicObjectCollectionViewCell.xib in Resources */,
+				1838665227D1CCE30050C2A0 /* IslamicObjects.storyboard in Resources */,
+				18065B9727F31682006FF667 /* NamazTableViewCell.xib in Resources */,
+				18B2DB2227CDED4D00EEADA0 /* 2nd-Qalma-Shahada.mp3 in Resources */,
+				18D3664027BD03AF00F2D92B /* Main.storyboard in Resources */,
+				18408ED727F1C01F00C052C9 /* HajjTableViewCell.xib in Resources */,
+				1830D19527D8B84700161F02 /* IslamicItems.storyboard in Resources */,
+				1876F58827D9BDAF008DA72C /* AzanTableViewCell.xib in Resources */,
+				18408EE327F1CB0400C052C9 /* UmrahTableViewCell.xib in Resources */,
+				18065B8E27F312FF006FF667 /* Namaz.json in Resources */,
+				18D3667B27BE13BE00F2D92B /* IslamicDuas.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18D3664C27BD03B100F2D92B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18D3665727BD03B100F2D92B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1309162286B40A3C52FB686B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Islamic Application/Pods-Islamic Application-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Islamic Application/Pods-Islamic Application-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Islamic Application/Pods-Islamic Application-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		68BC703F4BE4B739B0DD3556 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Islamic Application-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8DDD0A0E8CC00D860C68B0ED /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Islamic ApplicationTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A6112B63CFC0A64A01771997 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Islamic Application-Islamic ApplicationUITests/Pods-Islamic Application-Islamic ApplicationUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Islamic Application-Islamic ApplicationUITests/Pods-Islamic Application-Islamic ApplicationUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Islamic Application-Islamic ApplicationUITests/Pods-Islamic Application-Islamic ApplicationUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ABE327CD91717D1A18B1F3A8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Islamic Application-Islamic ApplicationUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18D3663127BD03AF00F2D92B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18335FAD27C4A91F0000DDE5 /* MainIslamicObjectCollectionViewCell.swift in Sources */,
+				1830D16827D6784C00161F02 /* Foods.swift in Sources */,
+				18408ED627F1C01F00C052C9 /* HajjTableViewCell.swift in Sources */,
+				1830D19D27D8BA3400161F02 /* EidTableViewCell.swift in Sources */,
+				1830D18527D77AC300161F02 /* WuduTableViewCell.swift in Sources */,
+				18808EFE27CD1FB2005F58B8 /* kalmas.swift in Sources */,
+				1830D1A927D9120100161F02 /* AllahNames.swift in Sources */,
+				18F71C8827E052020043E53C /* QuranViewController.swift in Sources */,
+				18335FA427C49B2A0000DDE5 /* MainViewController.swift in Sources */,
+				18065B9627F31682006FF667 /* NamazTableViewCell.swift in Sources */,
+				1830D16E27D67F3E00161F02 /* FoodTableViewCell.swift in Sources */,
+				1876F59B27D9FE0F008DA72C /* Quran.swift in Sources */,
+				1830D17F27D7785C00161F02 /* Wudu.swift in Sources */,
+				18D3668C27BE3D1C00F2D92B /* IslamicDuasViewController.swift in Sources */,
+				18408EE227F1CB0400C052C9 /* UmrahTableViewCell.swift in Sources */,
+				1830D19727D8B8B800161F02 /* EidViewController.swift in Sources */,
+				18318D2627E20BFC0036B572 /* HadithNameTableViewCell.swift in Sources */,
+				1830D18127D7792A00161F02 /* WuduViewController.swift in Sources */,
+				18408EC627F1818300C052C9 /* HadithTableViewCell.swift in Sources */,
+				1898905B27BFABAE000A3DC9 /* ZakatViewController.swift in Sources */,
+				1876F59627D9DDF1008DA72C /* SurahsNamesTableViewCell.swift in Sources */,
+				18D3663927BD03AF00F2D92B /* AppDelegate.swift in Sources */,
+				1830D18E27D877D500161F02 /* RamadanTableViewCell.swift in Sources */,
+				18065B9027F313C5006FF667 /* NamazViewController.swift in Sources */,
+				1830D17227D75CA500161F02 /* PillarsOfIslamViewController.swift in Sources */,
+				1876F59927D9EA6A008DA72C /* AlQuran.swift in Sources */,
+				1830D19927D8B97B00161F02 /* Eid.swift in Sources */,
+				18318D2227E20B230036B572 /* HadithNameViewController.swift in Sources */,
+				1898905627BE7C34000A3DC9 /* TasbeehViewController.swift in Sources */,
+				1876F59227D9DD62008DA72C /* SurahsNameViewController.swift in Sources */,
+				18408EC927F1831D00C052C9 /* HadithViewController.swift in Sources */,
+				18318D2D27E210550036B572 /* Hadith.swift in Sources */,
+				1830D1A627D9030800161F02 /* AllahNamesCollectionViewCell.swift in Sources */,
+				18408EDC27F1C9B400C052C9 /* UmrahViewController.swift in Sources */,
+				180268F927C63F950011AA4A /* KalmasViewController.swift in Sources */,
+				18C1698927D2188E004E0BCD /* IslamicDuasTableViewCell.swift in Sources */,
+				18784FCA27ED909A0071D259 /* CalendarViewController.swift in Sources */,
+				18F71C8C27E054540043E53C /* AlQuranTableViewCell.swift in Sources */,
+				1876F58727D9BDAF008DA72C /* AzanTableViewCell.swift in Sources */,
+				1830D18A27D8770800161F02 /* RamadanViewController.swift in Sources */,
+				18D3664327BD03AF00F2D92B /* Islamic_Application.xcdatamodeld in Sources */,
+				18F71C9127E082240043E53C /* KalmasTableViewCell.swift in Sources */,
+				1830D17627D75D9B00161F02 /* PillarsOfIslam.swift in Sources */,
+				18D3667D27BE14D600F2D92B /* DuasNameViewController.swift in Sources */,
+				1830D1A227D9014F00161F02 /* AllahNamesViewController.swift in Sources */,
+				1830D19127D878E400161F02 /* Ramadan.swift in Sources */,
+				1830D16A27D67E6500161F02 /* FoodViewController.swift in Sources */,
+				183FFE8727CF8DA9009A26F7 /* TotalZakatViewController.swift in Sources */,
+				18F71C9A27E1A7000043E53C /* Extension.swift in Sources */,
+				1830D17A27D75F4300161F02 /* IslamicPillarsTableViewCell.swift in Sources */,
+				18D3668127BE158800F2D92B /* DuasNameCollectionViewCell.swift in Sources */,
+				1876F58C27D9BDF3008DA72C /* Azan.swift in Sources */,
+				18D3663B27BD03AF00F2D92B /* SceneDelegate.swift in Sources */,
+				18408ECB27F1984200C052C9 /* GuidanceViewController.swift in Sources */,
+				18408EDE27F1C9DD00C052C9 /* Umrah.swift in Sources */,
+				18335FB627C4F8EA0000DDE5 /* IslamicObjects.swift in Sources */,
+				18408ED027F1BE0000C052C9 /* Hajj.swift in Sources */,
+				18065B9227F31520006FF667 /* Namaz.swift in Sources */,
+				18408ED227F1BF6B00C052C9 /* HajjViewController.swift in Sources */,
+				1876F58A27D9BDCF008DA72C /* AzanViewController.swift in Sources */,
+				18784FCE27EF3D4A0071D259 /* QiblaViewController.swift in Sources */,
+				18D3668527BE1AD400F2D92B /* IslamicDuas.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18D3664A27BD03B100F2D92B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18D3665327BD03B100F2D92B /* Islamic_ApplicationTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18D3665527BD03B100F2D92B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18D3665E27BD03B100F2D92B /* Islamic_ApplicationUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18D3665027BD03B100F2D92B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18D3663427BD03AF00F2D92B /* Islamic Application */;
+			targetProxy = 18D3664F27BD03B100F2D92B /* PBXContainerItemProxy */;
+		};
+		18D3665B27BD03B100F2D92B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18D3663427BD03AF00F2D92B /* Islamic Application */;
+			targetProxy = 18D3665A27BD03B100F2D92B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18D3663E27BD03AF00F2D92B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18D3663F27BD03AF00F2D92B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18D3664627BD03B100F2D92B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18D3664727BD03B100F2D92B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18D3666027BD03B100F2D92B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		18D3666127BD03B100F2D92B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18D3666327BD03B100F2D92B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CEAAC6952B4C9D91FB29ABEB /* Pods-Islamic Application.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 98CD59X934;
+				INFOPLIST_FILE = "Islamic Application/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.arid.piano.Islamic-Application";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		18D3666427BD03B100F2D92B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 656CFAD9D4AF621AA9DBC6E5 /* Pods-Islamic Application.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 98CD59X934;
+				INFOPLIST_FILE = "Islamic Application/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.arid.piano.Islamic-Application";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		18D3666627BD03B100F2D92B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E538A05FE0A3B6A5E03E8D9E /* Pods-Islamic ApplicationTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Islamic ApplicationTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.arid.piano.Islamic-ApplicationTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Islamic Application.app/Islamic Application";
+			};
+			name = Debug;
+		};
+		18D3666727BD03B100F2D92B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76BE7E543EA410DC48872AE4 /* Pods-Islamic ApplicationTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Islamic ApplicationTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.arid.piano.Islamic-ApplicationTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Islamic Application.app/Islamic Application";
+			};
+			name = Release;
+		};
+		18D3666927BD03B100F2D92B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F0DF5B3C165A6C364833901 /* Pods-Islamic Application-Islamic ApplicationUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Islamic ApplicationUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.arid.piano.Islamic-ApplicationUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Islamic Application";
+			};
+			name = Debug;
+		};
+		18D3666A27BD03B100F2D92B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D9628A781A6F6F3FE10F206 /* Pods-Islamic Application-Islamic ApplicationUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Islamic ApplicationUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.arid.piano.Islamic-ApplicationUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Islamic Application";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18D3663027BD03AE00F2D92B /* Build configuration list for PBXProject "Islamic Application" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18D3666027BD03B100F2D92B /* Debug */,
+				18D3666127BD03B100F2D92B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18D3666227BD03B100F2D92B /* Build configuration list for PBXNativeTarget "Islamic Application" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18D3666327BD03B100F2D92B /* Debug */,
+				18D3666427BD03B100F2D92B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18D3666527BD03B100F2D92B /* Build configuration list for PBXNativeTarget "Islamic ApplicationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18D3666627BD03B100F2D92B /* Debug */,
+				18D3666727BD03B100F2D92B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18D3666827BD03B100F2D92B /* Build configuration list for PBXNativeTarget "Islamic ApplicationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18D3666927BD03B100F2D92B /* Debug */,
+				18D3666A27BD03B100F2D92B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		18D3664127BD03AF00F2D92B /* Islamic_Application.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				18D3664227BD03AF00F2D92B /* Islamic_Application.xcdatamodel */,
+			);
+			currentVersion = 18D3664227BD03AF00F2D92B /* Islamic_Application.xcdatamodel */;
+			path = Islamic_Application.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 18D3662D27BD03AE00F2D92B /* Project object */;
+}

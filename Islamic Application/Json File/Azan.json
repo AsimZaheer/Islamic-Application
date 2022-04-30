@@ -1,0 +1,14 @@
+[
+   {
+      "AzanName":"Azan 1",
+      "Azansound":"azan1"
+   },
+   {
+      "AzanName":"Azan 2",
+      "Azansound":"azan2"
+   },
+   {
+      "AzanName": "Azan 3",
+      "Azansound":"azan3"
+   }
+]

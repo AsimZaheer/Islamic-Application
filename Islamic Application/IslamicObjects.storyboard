@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Daily Azkar-->
+        <scene sceneID="AjW-TU-Df9">
+            <objects>
+                <viewController storyboardIdentifier="DuasNameViewController" title="Daily Azkar" id="0gC-D8-ZaE" customClass="DuasNameViewController" customModule="Islamic_Application" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Xgf-bN-3MO">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gq3-md-w4t">
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                                <subviews>
+                                    <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="BfH-LG-mQ7">
+                                        <rect key="frame" x="20" y="20" width="374" height="798"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                        <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="CEn-ge-UTD">
+                                            <size key="itemSize" width="128" height="128"/>
+                                            <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                            <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                            <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                        </collectionViewFlowLayout>
+                                        <cells/>
+                                        <connections>
+                                            <outlet property="dataSource" destination="0gC-D8-ZaE" id="IGv-8t-gGU"/>
+                                            <outlet property="delegate" destination="0gC-D8-ZaE" id="tb8-7q-C5D"/>
+                                        </connections>
+                                    </collectionView>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <constraints>
+                                    <constraint firstItem="BfH-LG-mQ7" firstAttribute="leading" secondItem="gq3-md-w4t" secondAttribute="leading" constant="20" id="1NI-H9-UkA"/>
+                                    <constraint firstAttribute="bottom" secondItem="BfH-LG-mQ7" secondAttribute="bottom" id="3Zm-jL-YbS"/>
+                                    <constraint firstAttribute="trailing" secondItem="BfH-LG-mQ7" secondAttribute="trailing" constant="20" id="8af-FK-ftU"/>
+                                    <constraint firstItem="BfH-LG-mQ7" firstAttribute="top" secondItem="gq3-md-w4t" secondAttribute="top" constant="20" id="yet-vw-Y8g"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="gq3-md-w4t" firstAttribute="top" secondItem="UfY-Ju-QAj" secondAttribute="top" id="3yj-bX-qt3"/>
+                            <constraint firstItem="gq3-md-w4t" firstAttribute="leading" secondItem="UfY-Ju-QAj" secondAttribute="leading" id="5eI-3M-vm2"/>
+                            <constraint firstItem="UfY-Ju-QAj" firstAttribute="trailing" secondItem="gq3-md-w4t" secondAttribute="trailing" id="UC6-2A-E06"/>
+                            <constraint firstItem="UfY-Ju-QAj" firstAttribute="bottom" secondItem="gq3-md-w4t" secondAttribute="bottom" id="VWL-B7-qUv"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="UfY-Ju-QAj"/>
+                    </view>
+                    <connections>
+                        <outlet property="duasNameCollectionView" destination="BfH-LG-mQ7" id="vi4-PB-VLj"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fni-9U-0gf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="309" y="245"/>
+        </scene>
+        <!--Islamic Duas View Controller-->
+        <scene sceneID="5Zf-Rl-SGa">
+            <objects>
+                <viewController storyboardIdentifier="IslamicDuasViewController" id="z8G-YA-mgI" customClass="IslamicDuasViewController" customModule="Islamic_Application" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Wne-xI-h3p">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fsg-P1-mdC">
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                                <subviews>
+                                    <tableView clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" style="plain" separatorStyle="none" allowsSelection="NO" rowHeight="-1" sectionHeaderHeight="-1" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Lqq-7L-ChU">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="818"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                        <connections>
+                                            <outlet property="dataSource" destination="z8G-YA-mgI" id="rqM-YN-2pK"/>
+                                            <outlet property="delegate" destination="z8G-YA-mgI" id="yn8-Nk-HuQ"/>
+                                        </connections>
+                                    </tableView>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <constraints>
+                                    <constraint firstItem="Lqq-7L-ChU" firstAttribute="top" secondItem="fsg-P1-mdC" secondAttribute="top" id="LA4-jz-MVo"/>
+                                    <constraint firstItem="Lqq-7L-ChU" firstAttribute="leading" secondItem="fsg-P1-mdC" secondAttribute="leading" id="fZX-YY-ryi"/>
+                                    <constraint firstAttribute="bottom" secondItem="Lqq-7L-ChU" secondAttribute="bottom" id="q1R-qh-sxm"/>
+                                    <constraint firstAttribute="trailing" secondItem="Lqq-7L-ChU" secondAttribute="trailing" id="tlp-5G-qiK"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="fsg-P1-mdC" firstAttribute="top" secondItem="IYC-IN-ECv" secondAttribute="top" id="8ov-cf-II0"/>
+                            <constraint firstItem="IYC-IN-ECv" firstAttribute="bottom" secondItem="fsg-P1-mdC" secondAttribute="bottom" id="HKE-GL-0bx"/>
+                            <constraint firstItem="fsg-P1-mdC" firstAttribute="leading" secondItem="IYC-IN-ECv" secondAttribute="leading" id="I2j-zH-Tih"/>
+                            <constraint firstItem="IYC-IN-ECv" firstAttribute="trailing" secondItem="fsg-P1-mdC" secondAttribute="trailing" id="IQo-ZE-Dos"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="IYC-IN-ECv"/>
+                    </view>
+                    <connections>
+                        <outlet property="islamicDuasTableView" destination="Lqq-7L-ChU" id="ALl-yf-dVV"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Z0w-vQ-5nQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="931" y="240"/>
+        </scene>
+        <!--Halal Food-->
+        <scene sceneID="Plb-fa-i6C">
+            <objects>
+                <viewController storyboardIdentifier="FoodViewController" title="Halal Food" id="SPm-hS-iWD" customClass="FoodViewController" customModule="Islamic_Application" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="RGy-eb-hEO">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iRb-aa-f55">
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                                <subviews>
+                                    <tableView clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" style="plain" separatorStyle="none" allowsSelection="NO" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="671-xq-BYX">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="818"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                        <connections>
+                                            <outlet property="dataSource" destination="SPm-hS-iWD" id="j6r-II-Uou"/>
+                                            <outlet property="delegate" destination="SPm-hS-iWD" id="txC-kh-MeJ"/>
+                                        </connections>
+                                    </tableView>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <constraints>
+                                    <constraint firstItem="671-xq-BYX" firstAttribute="leading" secondItem="iRb-aa-f55" secondAttribute="leading" id="7uR-XH-wvr"/>
+                                    <constraint firstAttribute="trailing" secondItem="671-xq-BYX" secondAttribute="trailing" id="JnU-5h-xtZ"/>
+                                    <constraint firstItem="671-xq-BYX" firstAttribute="top" secondItem="iRb-aa-f55" secondAttribute="top" id="a0A-Xz-wp7"/>
+                                    <constraint firstAttribute="bottom" secondItem="671-xq-BYX" secondAttribute="bottom" id="gPl-df-KXj"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="7EE-Ur-Haf" firstAttribute="trailing" secondItem="iRb-aa-f55" secondAttribute="trailing" id="FGP-cK-4me"/>
+                            <constraint firstItem="7EE-Ur-Haf" firstAttribute="bottom" secondItem="iRb-aa-f55" secondAttribute="bottom" id="Rfc-jk-g4a"/>
+                            <constraint firstItem="iRb-aa-f55" firstAttribute="leading" secondItem="7EE-Ur-Haf" secondAttribute="leading" id="XEy-M1-2dw"/>
+                            <constraint firstItem="iRb-aa-f55" firstAttribute="top" secondItem="7EE-Ur-Haf" secondAttribute="top" id="Zq3-RL-GMy"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="7EE-Ur-Haf"/>
+                    </view>
+                    <connections>
+                        <outlet property="foodTableView" destination="671-xq-BYX" id="bPw-SH-yfQ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iu9-Kc-cFg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1555" y="244"/>
+        </scene>
+        <!--Pillars Of Islam-->
+        <scene sceneID="rlR-G4-7Ed">
+            <objects>
+                <viewController storyboardIdentifier="PillarsOfIslamViewController" title="Pillars Of Islam" id="dP2-NQ-dMB" customClass="PillarsOfIslamViewController" customModule="Islamic_Application" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="HIO-S2-RYy">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QzL-ex-NOw">
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                                <subviews>
+                                    <tableView clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" style="plain" separatorStyle="none" allowsSelection="NO" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="36e-pe-FX6">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="818"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <color key="separatorColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <color key="sectionIndexBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <color key="sectionIndexTrackingBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <connections>
+                                            <outlet property="dataSource" destination="dP2-NQ-dMB" id="z5y-Wd-8CS"/>
+                                            <outlet property="delegate" destination="dP2-NQ-dMB" id="9eF-bn-P2b"/>
+                                        </connections>
+                                    </tableView>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="36e-pe-FX6" secondAttribute="bottom" id="0ZI-vg-2uN"/>
+                                    <constraint firstAttribute="trailing" secondItem="36e-pe-FX6" secondAttribute="trailing" id="79w-zi-azI"/>
+                                    <constraint firstItem="36e-pe-FX6" firstAttribute="leading" secondItem="QzL-ex-NOw" secondAttribute="leading" id="AHp-cK-Q39"/>
+                                    <constraint firstItem="36e-pe-FX6" firstAttribute="top" secondItem="QzL-ex-NOw" secondAttribute="top" id="nYI-VW-bUw"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="QzL-ex-NOw" firstAttribute="top" secondItem="6DX-iY-Nzz" secondAttribute="top" id="GjF-Ez-ROq"/>
+                            <constraint firstItem="6DX-iY-Nzz" firstAttribute="trailing" secondItem="QzL-ex-NOw" secondAttribute="trailing" id="dsP-rO-7c3"/>
+                            <constraint firstItem="6DX-iY-Nzz" firstAttribute="bottom" secondItem="QzL-ex-NOw" secondAttribute="bottom" id="vQB-fO-gbn"/>
+                            <constraint firstItem="QzL-ex-NOw" firstAttribute="leading" secondItem="6DX-iY-Nzz" secondAttribute="leading" id="zg5-ty-3GL"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6DX-iY-Nzz"/>
+                    </view>
+                    <connections>
+                        <outlet property="islamicPillarsTableView" destination="36e-pe-FX6" id="xjt-SC-ko5"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bng-Fn-b2Q" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2190" y="244"/>
+        </scene>
+        <!--Wadu Steps-->
+        <scene sceneID="6t2-H7-NIe">
+            <objects>
+                <viewController storyboardIdentifier="WuduViewController" title="Wadu Steps" id="X5n-6E-39u" customClass="WuduViewController" customModule="Islamic_Application" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="uRJ-lM-ZBM">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="f8M-5n-h7v">
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                                <subviews>
+                                    <tableView clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" style="plain" separatorStyle="none" allowsSelection="NO" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="1h3-0K-KQP">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="818"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                        <connections>
+                                            <outlet property="dataSource" destination="X5n-6E-39u" id="fee-Kz-Fjc"/>
+                                            <outlet property="delegate" destination="X5n-6E-39u" id="eqX-Ou-cBV"/>
+                                        </connections>
+                                    </tableView>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <constraints>
+                                    <constraint firstItem="1h3-0K-KQP" firstAttribute="leading" secondItem="f8M-5n-h7v" secondAttribute="leading" id="BA4-Qe-X3U"/>
+                                    <constraint firstItem="1h3-0K-KQP" firstAttribute="top" secondItem="f8M-5n-h7v" secondAttribute="top" id="Jsm-42-Bc5"/>
+                                    <constraint firstAttribute="bottom" secondItem="1h3-0K-KQP" secondAttribute="bottom" id="YlH-im-lLR"/>
+                                    <constraint firstAttribute="trailing" secondItem="1h3-0K-KQP" secondAttribute="trailing" id="sze-9j-0Wd"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="KAo-sr-0Wr" firstAttribute="trailing" secondItem="f8M-5n-h7v" secondAttribute="trailing" id="06G-G9-n2e"/>
+                            <constraint firstItem="KAo-sr-0Wr" firstAttribute="bottom" secondItem="f8M-5n-h7v" secondAttribute="bottom" id="EyC-cf-DAV"/>
+                            <constraint firstItem="f8M-5n-h7v" firstAttribute="top" secondItem="KAo-sr-0Wr" secondAttribute="top" id="Fgz-xa-wnL"/>
+                            <constraint firstItem="f8M-5n-h7v" firstAttribute="leading" secondItem="KAo-sr-0Wr" secondAttribute="leading" id="VFD-Kf-UB5"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="KAo-sr-0Wr"/>
+                    </view>
+                    <connections>
+                        <outlet property="wuduTableView" destination="1h3-0K-KQP" id="dGk-GM-Xmg"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0G9-1m-BaQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2841" y="244"/>
+        </scene>
+        <!--Importance Of Ramadan-->
+        <scene sceneID="sQW-Jz-Pep">
+            <objects>
+                <viewController storyboardIdentifier="RamadanViewController" title="Importance Of Ramadan" id="9Us-Rl-gdI" customClass="RamadanViewController" customModule="Islamic_Application" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="PIZ-yl-sLd">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gv8-IF-u4L">
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                                <subviews>
+                                    <tableView clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" style="plain" separatorStyle="none" allowsSelection="NO" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="wnc-Zn-dP3">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="818"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                        <connections>
+                                            <outlet property="dataSource" destination="9Us-Rl-gdI" id="caL-l1-h83"/>
+                                            <outlet property="delegate" destination="9Us-Rl-gdI" id="PMy-ae-SNE"/>
+                                        </connections>
+                                    </tableView>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <constraints>
+                                    <constraint firstItem="wnc-Zn-dP3" firstAttribute="top" secondItem="gv8-IF-u4L" secondAttribute="top" id="Wmh-h1-O4v"/>
+                                    <constraint firstAttribute="bottom" secondItem="wnc-Zn-dP3" secondAttribute="bottom" id="ZQF-1d-YNa"/>
+                                    <constraint firstAttribute="trailing" secondItem="wnc-Zn-dP3" secondAttribute="trailing" id="hfn-sN-QEt"/>
+                                    <constraint firstItem="wnc-Zn-dP3" firstAttribute="leading" secondItem="gv8-IF-u4L" secondAttribute="leading" id="qKG-a8-pDy"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="rrg-Vx-bJf" firstAttribute="bottom" secondItem="gv8-IF-u4L" secondAttribute="bottom" id="JZn-ta-lNI"/>
+                            <constraint firstItem="gv8-IF-u4L" firstAttribute="top" secondItem="rrg-Vx-bJf" secondAttribute="top" id="Pkh-te-udH"/>
+                            <constraint firstItem="gv8-IF-u4L" firstAttribute="leading" secondItem="rrg-Vx-bJf" secondAttribute="leading" id="RjU-bd-1PS"/>
+                            <constraint firstItem="rrg-Vx-bJf" firstAttribute="trailing" secondItem="gv8-IF-u4L" secondAttribute="trailing" id="UST-t6-xRX"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="rrg-Vx-bJf"/>
+                    </view>
+                    <connections>
+                        <outlet property="ramadanTableView" destination="wnc-Zn-dP3" id="PpR-RI-HqR"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KsN-k9-DOP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3513" y="244"/>
+        </scene>
+    </scenes>
+</document>
